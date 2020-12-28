@@ -14,19 +14,19 @@ text-align: unset;
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    color:black;
-    text-align: left;
+    font-size: 30px;
+    font-weight: 100;
+    color:#ffee00;
+    text-align: right;
     background-color: transparent;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: rgb(7, 7, 7);
-    text-align: left;
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffee00;
+    text-align: right;
     background-color: transparent;
 }
 
@@ -54,27 +54,18 @@ a:hover{
 
 /* ------ Logo main ----*/
 
-/*.logo-img{
-    background: url(/workspace/Insecure-Dangereux_site/assets/images/logo-2-I&D.png) no-repeat center right;
+.logo-img{
+    background: url(/workspace/Insecure-Dangereux_site/assets/images/logosanstext.png) no-repeat center left ;
     background-size: contain;
+    background-color: black;
     position: relative;
-    padding: 70px;}*/
-.logo-img-part1{
-    background: url(/workspace/Insecure-Dangereux_site/assets/images/logo-part1.png) center top;
-    background-repeat: repeat-y;
-    padding: 70px;
-    z-index: 1;
-}
-.logo-img-part2{
-    background: url(/workspace/Insecure-Dangereux_site/assets/images/logo-part2.png)  center center;
-    background-repeat: repeat-y;
-    padding: 70px;
-     z-index: 1;
+    padding: 20% 10% 20% 20%;
 }
 
 
 
-/* ------ testomonials______*/
+
+/* ------ testomonials & articles section______*/
 
 .testi-back{
       background: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg) no-repeat bottom right;
