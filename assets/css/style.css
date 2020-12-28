@@ -2,33 +2,72 @@
 
 
 
+/* allll */
+body, html{
+margin: 0;
+padding: 0;
+}
+
+
 /* ---- headerlier----*/
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 100px;
+    font-size: 40px;
     font-weight: 200;
-    color: azure;
+    color: rgb(255, 187, 0);
     text-align: left;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: 500;
-    color: azure;
+    color: rgb(255, 187, 0);
     text-align: left;
 }
 
 /* ---- NAV BAER -----*/
 
+.nav{
+    display: inline-block;
+    background-color: rgb(26, 27, 27, 0.2);
+    color: rgb(255, 187, 0);
+    font-size: 10px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    
+}
+
+ul{
+    
+     list-style: none;
+    text-decoration: none;
+}
+
+.nav:hover{
+     background-color: rgb(7, 7, 7);
+    color: rgb(252, 199, 55);
+}
 
 /* ------ Logo main ----*/
 
 .logo-img{
-    background: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg) no-repeat bottom right;
-    padding: 120px;
+    background: url(/workspace/Insecure-Dangereux_site/assets/images/logo-2-I&D.png) no-repeat center right;
+    background-size: contain;
+    position: relative;
+    padding: 50px;
+
 }
 
 
 /* ------ testomonials______*/
+
+.testi-back{
+      background: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg) no-repeat bottom right;
+    padding: 100px;
+    background-size: cover;
+}
