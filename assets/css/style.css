@@ -9,17 +9,23 @@ padding: 0;
 text-align: unset;
 }
 
+
+
 /*-------bg-------*/
-#bg-one{
+
+
+.bg-one{
     background-color: #db1d0d;
     padding: 0.8rem;
 }
-#bg-two{
+.bg-two{
     background-color: #ffee00;
 }
-#bg-three{
+.bg-three{
     background-color: rgb(2, 2, 2);
 }
+
+
 /* ---- headings----*/
 #heading-main  {
     font-family: 'Montserrat', sans-serif;
@@ -33,34 +39,48 @@ text-align: unset;
 
 #sub-heading {
     font-family: 'Montserrat', sans-serif;
-    font-size: 7vmin;
-    font-weight: 800;
+    font-size: 6vmin;
+    font-weight: 700;
     font-style: italic;
     color:#ffee00;
     text-align: right;
     background-color: transparent;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
+.sub-heading2{
+font-family: 'Montserrat', sans-serif;
+    font-size: 2vmin;
+    font-weight: 200;
     color: #ffee00;
     text-align: right;
+    background-color: transparent;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vmin;
+    font-weight: 400;
+    color: #ffee00;
+    text-align: left;
     background-color: transparent;
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 4vmin;
     font-weight: 500;
     color: #ffee00;
-    text-align: right;
+    text-align: left;
     background-color: transparent;
 }
 
 
 /* ---- NAV BAER -----*/
+
+.container-fluid{
+    margin: inherit;
+
+}
 
 ul a{
     color: black;
@@ -70,18 +90,41 @@ ul a{
     text-align: center;
 }
 
-.nav-link{
-    padding: 1rem 3rem 1rem 3rem
-   
-
+.col{
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
+
+
+.nav-link{
+    padding: 1rem 3rem 1rem 3rem;
+}
+
 li{
     list-style: none;
     text-decoration: none;
 }
 
-ul:hover,
-a:hover{
+
+#nvbar-head{
+    padding: inherit;
+    margin: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    
+}
+
+#nvbar-sub-head2, #nvbar-sub-head{
+    padding: inherit;
+    margin: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+.nav-link:hover{
      background-color: rgb(7, 7, 7, 0.5);
     color: #ffee00;
 }
@@ -109,10 +152,6 @@ a:hover{
 
 a:any-link{
     color: #ffee00;
-}
-
-h4{
-    text-align: center;
 }
 
 p {
