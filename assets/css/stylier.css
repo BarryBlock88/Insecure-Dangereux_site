@@ -7,6 +7,18 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  
+}
+.blur-page-animation {
+    animation: soft-focus 4s forwards;
+  -webkit-animation: soft-focus 4s forwards;
+  -moz-animation:soft-focus 4s forwards; 
+  -o-animation: soft-focus 4s forwards;
+}
+
+@keyframes soft-focus {
+  0%, 100%  { filter: blur(0px); }
+  40% { filter: blur(9px); }
 }
 
 
@@ -14,6 +26,7 @@ body, html {
   height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .image1{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/56252815_852751235070524_8492501253140512768_n.jpg);
@@ -37,6 +50,7 @@ background-position: top;
 }
 
 .welcome-butt {
+    text-align: right;
     font-family: 'Montserrat', sans-serif;
 background-color: #00000067;
   color: #ffee00;
@@ -109,17 +123,24 @@ h4 {
      position: fixed;
 }
 
+.icon-nav{
+    padding-right: 2rem;
+}
 
+ul{
+    padding-left: 0;
+}
 .container-fluid{
     margin: 0;
+    z-index: 1;
 
 }
 
-ul a{
-    color: black;
+ul a:link{
+    background-color: rgb(7, 7, 7, 0.5);
+    color: #ffee00;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    background-color: #db1d0d;
     text-align: center;
 }
 
@@ -130,8 +151,8 @@ ul a{
 
 .nav-link{
     display: unset;
-    padding-left: 5rem;
-    font-size: 120%;
+    padding-left: 6rem;
+    font-size: 180%;
 }
 
 li{
@@ -139,8 +160,8 @@ li{
     text-decoration: none;
 }
 .nav-link:hover{
-     background-color: rgb(7, 7, 7, 0.5);
-    color: #ffee00;
+     color: black;
+    background-color: #db1d0d;
 }
 
 a:any-link{
@@ -169,13 +190,12 @@ a:any-link{
     padding: 2%;
 
 }
-
-
 a:hover{
     color: black;
 }
 
 .social-link-item a:any-link{
+    background-color: transparent;
    color: #ffee00;
 }
 
