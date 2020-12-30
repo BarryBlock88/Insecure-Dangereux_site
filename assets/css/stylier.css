@@ -11,7 +11,7 @@ body, html {
 
 
 .id-bg-img{
-  height: 50%;
+  height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,27 +33,25 @@ body, html {
 }
 .image5{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/89252199_1112228155789496_5938179216028729344_n.jpg);
-background-position: center;
+background-position: top;
 }
 
-.Nav-butt {
+.welcome-butt {
     font-family: 'Montserrat', sans-serif;
-background-color:#ffee00;
-  color: #000000;
-  font-weight: 300;
-  font-size: 20px;
-  border: 1px solid #f1f1f1;
-  border-radius: 5%;
+background-color: #00000067;
+  color: #ffee00;
+  font-weight: 800;
+  font-size: 5vmax;
+  border-radius: 2%;
   position: fixed;
-  top: 30%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
   z-index: 2;
 }
 
-.Nav-butt:hover{
-    background-color:#dd00006b;
-    color: black;
+.welcome-butt:hover{
+    background-color:#0000002d;
+    color: #db1d0d;
 }
 
 
@@ -105,7 +103,49 @@ h4 {
     background-color: transparent;
 }
 
+/* ---- NAV BAER -----*/
 
+.nav-sticky{
+     position: fixed;
+}
+
+
+.container-fluid{
+    margin: 0;
+
+}
+
+ul a{
+    color: black;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #db1d0d;
+    text-align: center;
+}
+
+.col{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.nav-link{
+    display: unset;
+    padding-left: 5rem;
+    font-size: 120%;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.nav-link:hover{
+     background-color: rgb(7, 7, 7, 0.5);
+    color: #ffee00;
+}
+
+a:any-link{
+    color: black;
+}
 
 
 /*------Social-links-------*/
