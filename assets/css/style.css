@@ -8,6 +8,8 @@ margin: 0;
 padding: 0;
 text-align: unset;
 color: unset;
+background-color: unset;
+height: 100%;
 }
 
 
@@ -97,8 +99,8 @@ ul a{
 }
 
 
-.nav-link{
-    padding: 1rem 3rem 1rem 3rem;
+a .nav-link{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 li{
@@ -137,11 +139,13 @@ a:any-link{
 /* ------ Logo main ----*/
 
 .logo-img{
-    background: url(/workspace/Insecure-Dangereux_site/assets/images/logosanstext.png) no-repeat center left ;
-    background-size: contain;
-    background-color: black;
-    position: relative;
-    padding: 20% 10% 20% 20%;
+    background: url(/workspace/Insecure-Dangereux_site/assets/images/logosanstext.png);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  background-attachment: scroll;
 }
 
 hr{
@@ -173,6 +177,7 @@ p {
     text-align: center;
     margin: 0;
     padding: 0;
+    
 }
 
 .social-link-item{
