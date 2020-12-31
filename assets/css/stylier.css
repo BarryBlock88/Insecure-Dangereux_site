@@ -8,26 +8,29 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: #000000;
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/I-Dwebsitescroll.png);
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg.png);
     background-position: unset;
     background-repeat: no-repeat;
-    background-size: unset;
+    background-size: cover;
     position: relative;
     
 }
-/*
-.blur-page-animation {
-    animation: soft-focus 3s forwards;
-  -webkit-animation: soft-focus 3s forwards;
-  -moz-animation:soft-focus 3s forwards; 
-  -o-animation: soft-focus 3s forwards;
+
+@media(max-width: 576px){
+    body,html{
+    background-color: #000000;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/mictail-mobile-bg2.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
 }
 
-@keyframes soft-focus {
-  0%, 100%  { filter: grayscale(none); }
-  50% { filter: grayscale(10); }
-}
-*/
+
+
+/*________RESOSIVENESS____*/
+
 
 /*_______image styles_____*/
 
@@ -44,8 +47,8 @@ body, html {
   opacity: 0.5;
 }
 .image1{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/56252815_852751235070524_8492501253140512768_n.jpg);
-    background-position: center bottom;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/theblacksheep.jpg);
+    background-position: center;
 }
 .image2{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/65057785_908495176162796_5867742598482886656_n.jpg);
@@ -56,12 +59,12 @@ body, html {
     background-position: center;
 }
 .image4{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/72248612_976218859390427_3680414392849006592_n.jpg);
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/funkymonkey.jpg);
     background-position: center;
 }
 .image5{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/89252199_1112228155789496_5938179216028729344_n.jpg);
-background-position: top;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg);
+background-position: bottom;
 }
 .img-show-1{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/funkymonkey.jpg);
@@ -104,16 +107,16 @@ background-position: top;
     line-height: 50px;
 }
 
+
 @media (max-width: 576px) {
     .venue-item p{
-        text-align: center;
-        font-size: 15px;}
+        text-align:center;
+         padding: 10px 10px 80px 10px;
+       }
      .venue-item h3{
          text-align: center;
         font-size: 50px;}
-    .venue-item{
-        padding-bottom: 80px;
-    }
+    
 }
 
 /*-------heading and welcome-----*/
@@ -128,15 +131,16 @@ background-position: top;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
   color: #ffee00;
-  font-weight: 200;
-  font-size: 50px;
+  font-weight: 100;
+  font-size: 80px;
+  margin-bottom: 120px;
 }
 .welcome-butt p{
-   text-align: right;
+   text-align: center;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
   color: #ffee00;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 20px;
 
 }
