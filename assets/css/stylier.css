@@ -50,6 +50,12 @@ body, html {
 background-position: top;
 }
 
+.scoll-image{
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/I-Dwebsitescroll.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
 
 /*-------heading and welcome-----*/
 
