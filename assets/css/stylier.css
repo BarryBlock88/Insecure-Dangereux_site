@@ -4,10 +4,16 @@
 
 
 body, html {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background-color: #000000;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/I-Dwebsitescroll.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: unset;
+    position: relative;
+    
 }
 /*
 .blur-page-animation {
@@ -25,15 +31,17 @@ body, html {
 
 /*_______image styles_____*/
 
-.opac{
-    opacity: 0.6;
+.filler{
+    background-color: transparent;
+    width: 220px;
+    height: 440px;
 }
 
 .id-bg-img{
   height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  opacity: 0.5;
 }
 .image1{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/56252815_852751235070524_8492501253140512768_n.jpg);
@@ -55,12 +63,57 @@ body, html {
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/89252199_1112228155789496_5938179216028729344_n.jpg);
 background-position: top;
 }
+.img-show-1{
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/funkymonkey.jpg);
+    background-position: center;
+    height: 70%;
+    }
+.img-show-2{
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg);
+    background-position: bottom;
+    height: 70%;
+    }
+.img-show-3{
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/theblacksheep.jpg);
+    background-position: center;
+    height: 70%;
+    }
+/*.scoll-image{
+  
+}*/
 
-.scoll-image{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/I-Dwebsitescroll.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    position: relative;
+/*______HEADERS______*/
+
+.venue-item h3{
+       text-align: right;
+    font-family: 'Montserrat', sans-serif;
+  color: #ffee00;
+  font-weight: 100;
+  font-size: 50px;
+  padding-right: 20px;
+  background-color: rgba(7, 7, 7, 0.411);
+}
+
+.venue-item p{
+       text-align: right;
+    font-family: 'Montserrat', sans-serif;
+  color: #ffee00;
+  font-weight: 400;
+  font-size: 20px;
+    background-color: rgba(7, 7, 7, 0.6);
+    line-height: 50px;
+}
+
+@media (max-width: 576px) {
+    .venue-item p{
+        text-align: center;
+        font-size: 15px;}
+     .venue-item h3{
+         text-align: center;
+        font-size: 50px;}
+    .venue-item{
+        padding-bottom: 80px;
+    }
 }
 
 /*-------heading and welcome-----*/
@@ -96,7 +149,7 @@ background-position: top;
 /* ---- NAV BAER -----*/
 
 .nav-sticky{
-     position: fixed;
+     position: relative;
 }
 
 .icon-nav{
@@ -117,6 +170,7 @@ ul a:link{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    opacity: 1.6;
 }
 
 .col{
@@ -136,7 +190,7 @@ li{
     text-decoration: none;
 }
 .nav-link:hover{
-     color: black;
+    color: black;
     background-color: #db1d0d;
 }
 
