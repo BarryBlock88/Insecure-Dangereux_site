@@ -16,20 +16,9 @@ body, html {
     
 }
 
-@media(max-width: 576px){
-    body,html{
-    background-color: #000000;
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/mictail-mobile-bg2.png);
-    background-position: unset;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    }
-}
 
 
 
-/*________RESOSIVENESS____*/
 
 
 /*_______image styles_____*/
@@ -81,11 +70,9 @@ background-position: bottom;
     background-position: center;
     height: 70%;
     }
-/*.scoll-image{
-  
-}*/
 
-/*______HEADERS______*/
+
+/*______Venue-HEADERS______*/
 
 .venue-item h3{
        text-align: right;
@@ -108,16 +95,7 @@ background-position: bottom;
 }
 
 
-@media (max-width: 576px) {
-    .venue-item p{
-        text-align:center;
-         padding: 10px 10px 80px 10px;
-       }
-     .venue-item h3{
-         text-align: center;
-        font-size: 50px;}
-    
-}
+
 
 /*-------heading and welcome-----*/
 
@@ -127,37 +105,42 @@ background-position: bottom;
 
 
 .welcome-butt h2 {
-    text-align: right;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
   color: #ffee00;
   font-weight: 100;
-  font-size: 80px;
-  margin-bottom: 120px;
+  font-size: 60px;
 }
 .welcome-butt p{
-   text-align: center;
+   text-align: left;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
   color: #ffee00;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 100px;
 
 }
 .welcome-butt:hover{
-    background-color:#0000001c;
     color: #db1d0d;
+    
 }
 
 
 /* ---- NAV BAER -----*/
+
+.fa-rotate-180{
+    padding: 0px 0px 0px 5px;
+}
 
 .nav-sticky{
      position: relative;
 }
 
 .icon-nav{
-    padding-right: 6px;
+    padding-right: 10px;
+   
 }
 
 ul{
@@ -168,8 +151,9 @@ ul{
     padding: 0;
 }
 
-ul a:link{
-    background-color: rgb(7, 7, 7, 0.5);
+ul a:link,
+a{
+    background-color: transparent;
     color: #ffee00;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -198,8 +182,11 @@ li{
     background-color: #db1d0d;
 }
 
-a:any-link{
+#active-nav{
     color: black;
+    background-color: #ffee00;
+    padding: 10px 10px 10px 15px;
+    border-radius: 3%;
 }
 
 
@@ -226,7 +213,7 @@ a:any-link{
 
 
 }
-a:hover{
+ a:hover{
     color: black;
 }
 
@@ -242,4 +229,67 @@ a:hover{
     font-weight: 600;
     margin: 0;
     padding-bottom: 15px;
+}
+
+
+
+/*________RESOSIVENESS____*/
+
+
+
+@media(max-width: 576px),(max-width: 768px){
+    body,html{
+    background-color: #000000;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/mictail-mobile-bg2.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+}
+
+
+@media(max-width: 576px),(max-width: 768px){
+
+    /*_____NAVBAR____*/
+
+    .nav-link, .nav-item{
+        text-align: left;
+        }
+    ul li a{
+        color: #000000;
+        margin: auto;
+        }
+    .moblie-nav{
+        background-color: transparent;
+        padding: 1px 29px 1px 29px;
+    }
+    #active-nav{
+    color: #db1d0d;
+    background-color:unset;
+   padding: unset;
+    }
+    
+    /*_____VENUE_PAGE_INFO__*/
+
+    .venue-item p{
+        text-align:center;
+         padding: 10px 10px 80px 10px;
+       }
+     .venue-item h3{
+         text-align: center;
+        font-size: 50px;}
+
+    /*_______WELCOME_TEXT__*/
+        .welcome-butt h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+    /*_____IMAGES_____*/
+        .id-bg-img{
+        height: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+}
 }
