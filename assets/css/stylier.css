@@ -80,23 +80,26 @@ background-position: bottom;
 /*______Venue-HEADERS______*/
 
 .venue-item h3{
-       text-align: right;
+       text-align: center;
     font-family: 'Montserrat', sans-serif;
   color: #ffee00;
   font-weight: 100;
   font-size: 50px;
   padding-right: 20px;
-  background-color: rgba(7, 7, 7, 0.411);
+  background-color: rgba(7, 7, 7, 0.6);
+   margin: auto;
+   padding-bottom: 30px;
 }
 
 .venue-item p{
-       text-align: right;
+       text-align: center;
     font-family: 'Montserrat', sans-serif;
   color: #ffee00;
   font-weight: 400;
   font-size: 20px;
     background-color: rgba(7, 7, 7, 0.6);
     line-height: 50px;
+    margin: auto;
 }
 
 
@@ -220,8 +223,7 @@ li{
 }
 
 #active-nav{
-    color: black;
-    background-color: #ffee00;
+    color: #ffee00;
     margin: 10px 10px 10px 15px;
     padding: 2px 2px 2px 3px;
     border-radius: 3%;
