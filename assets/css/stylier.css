@@ -20,7 +20,9 @@ body, html{
 
 
 
-
+.hidden{
+    visibility: hidden;
+}
 
 
 
@@ -136,9 +138,9 @@ background-position: bottom;
 
 
 .welcome-butt h2 {
-  font-weight: 100;
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 30px;
 }
 .welcome-butt p{
   font-weight: 400;
@@ -189,7 +191,7 @@ ul{
 ul a:link,
 a{
     background-color: transparent;
-    color: #ffee00;
+    color: #db1d0d;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -214,7 +216,7 @@ li{
     text-align: center;
 }
 .nav-link:hover{
-    color:#db1d0d;
+    color:#ffee00;
 }
 
 #active-nav{
