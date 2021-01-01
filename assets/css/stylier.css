@@ -8,7 +8,7 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: #000000;
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg.png);
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg2.png);
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ body, html {
 }
 .image4{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/funkymonkey.jpg);
-    background-position: center;
+    background-position: bottom;
 }
 .image5{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/Beige-at-ViaVia.jpg);
@@ -103,23 +103,26 @@ background-position: bottom;
     padding-right: 2px;
 }
 
-
-.welcome-butt h2 {
+.welcome-butt{
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
-  color: #ffee00;
+    color: #ffee00;
+    margin-bottom: 248px;
+    padding-left: 50px;
+}
+
+
+.welcome-butt h2 {
   font-weight: 100;
-  font-size: 60px;
+  font-size: 50px;
+  margin-bottom: 50px;
 }
 .welcome-butt p{
-   text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    background-color: transparent;
-  color: #ffee00;
   font-weight: 400;
-  font-size: 40px;
-  margin-bottom: 100px;
+  font-style: italic;
+  font-size: 23px;
+  
 
 }
 .welcome-butt:hover{
