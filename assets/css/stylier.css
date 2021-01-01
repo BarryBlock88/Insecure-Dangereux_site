@@ -11,11 +11,12 @@ body, html {
 }
 
 body, html{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg2.png);
-    background-position: unset;
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg3.png);
+    background-position:unset;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 
 
@@ -38,7 +39,7 @@ body, html{
   height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .image1{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/theblacksheep.jpg);
@@ -79,6 +80,10 @@ background-position: bottom;
 
 /*______Venue-HEADERS______*/
 
+.venue-item{
+    margin: 9px;
+}
+
 .venue-item h3{
        text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -88,17 +93,16 @@ background-position: bottom;
   padding-right: 20px;
   background-color: rgba(7, 7, 7, 0.6);
    margin: auto;
-   padding-bottom: 30px;
+   
 }
 
 .venue-item p{
        text-align: center;
     font-family: 'Montserrat', sans-serif;
   color: #ffee00;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
     background-color: rgba(7, 7, 7, 0.6);
-    line-height: 50px;
     margin: auto;
 }
 
@@ -141,17 +145,21 @@ background-position: bottom;
 
 
 .welcome-butt h2 {
-  font-weight: 800;
+  font-weight: 500;
   font-style: italic;
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: -80px;
 }
+.welcome-butt h3{
+    text-align: left;
+}
+
 .welcome-butt p{
   font-weight: 400;
   font-style: italic;
   font-size: 23px;
-  
-
 }
+
 
 
 /* ---- NAV BAER -----*/
@@ -293,6 +301,10 @@ li{
 
     /*_____NAVBAR____*/
 
+    .icon-nav{
+        font-size: 46px;
+    }
+
     /*
     .nav-link, .nav-item{
         text-align: left;
@@ -313,13 +325,22 @@ li{
     
     /*_____VENUE_PAGE_INFO__*/
 
+    .opac{
+        background: black;
+        opacity: none;
+    }
+
     .venue-item p{
         text-align: center;
-        padding: 10px 10px 80px 10px;
+        padding: 0px 10px 0px 10px;
+        line-height: 1;
+       
        }
      .venue-item h3{
+         font-weight: 300;
          text-align: center;
-        font-size: 50px;}
+        font-size: 50px;
+    margin-bottom: 9px;}
 
     /*_______WELCOME_TEXT__*/
         .welcome-butt h2{

@@ -11,17 +11,17 @@ body, html {
 }
 
 body, html{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg2.png);
+    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/IDmictailbg3.png);
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-
+/*
 #welcome-page body,html{
     top: -23%;
-}
+}*/
 
 
 
@@ -33,7 +33,7 @@ body, html{
 .filler{
     background-color: transparent;
     width: 220px;
-    height: 440px;
+    height: 280px;
 }
 
 .id-bg-img{
@@ -113,7 +113,7 @@ background-position: bottom;
 }
 
 #welcome-link a:hover{
-    color:#db1d0d;
+    color:#ffee00;
     display: unset;
     text-decoration: none;
 }
@@ -132,7 +132,7 @@ background-position: bottom;
 
 hr{
     width: 20%;
-     color: #ffee00;
+     color: #db1d0d;
      font-size: 40px;
 }
 
@@ -144,7 +144,7 @@ hr{
 
 }
 .welcome-butt:hover{
-    color: #db1d0d;
+    color: #ffee00;
     
 }
 
@@ -189,7 +189,7 @@ ul{
 ul a:link,
 a{
     background-color: transparent;
-    color: #ffee00;
+    color: #db1d0d;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -214,7 +214,7 @@ li{
     text-align: center;
 }
 .nav-link:hover{
-    color:#db1d0d;
+    color:#ffee00;
 }
 
 #active-nav{
