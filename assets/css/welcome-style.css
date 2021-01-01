@@ -19,6 +19,10 @@ body, html{
 }
 
 
+#welcome-page body,html{
+    top: -23%;
+}
+
 
 
 
@@ -114,15 +118,7 @@ background-position: bottom;
     text-decoration: none;
 }
 
-#welcome-link .welcome-butt{
-    font-size: 120px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    background-color: transparent;
-    color: #ffee00;
-    margin-bottom: 248px;
-    padding-left: 50px;
-}
+
 
 .welcome-butt{
     text-align: left;
@@ -134,18 +130,22 @@ background-position: bottom;
     padding-left: 50px;
 }
 
-
-.welcome-butt h2 {
-  font-weight: 100;
-  font-size: 50px;
-  margin-bottom: 50px;
+hr{
+    width: 20%;
+     color: #ffee00;
+     font-size: 40px;
 }
-.welcome-butt p{
-  font-weight: 400;
+
+ p{
+  font-weight: 800;
   font-style: italic;
-  font-size: 23px;
+  font-size: 60px;
   
 
+}
+.welcome-butt:hover{
+    color: #db1d0d;
+    
 }
 
 
@@ -282,7 +282,12 @@ li{
     background-size: cover;
     position: relative;
     }
+    #welcome-page body,html{
+    top: -23%;
 }
+
+    }
+
 
 
 @media(max-width: 576px),(max-width: 768px){
