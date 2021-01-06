@@ -230,6 +230,7 @@ li{
     color:#ffee00;
 }
 
+
 #active-nav{
     color: #ffee00;
     margin: 10px 10px 10px 15px;
@@ -279,6 +280,12 @@ li{
     padding-bottom: 15px;
 }
 
+@media(min-width: 576px),(min-width: 768px){
+.mobile-nav{
+    visibility: hidden;
+  
+}
+}
 
 
 /*________RESOSIVENESS____*/
@@ -297,31 +304,44 @@ li{
 }
 
 
+
 @media(max-width: 576px),(max-width: 768px){
 
     /*_____NAVBAR____*/
+#active-nav-mobile{
+    background-color: #db1d0d;
+    border-radius: 3.3%;
+    color: #ffee00;
+    margin: 0;
+    padding: 2px 2px 2px 2px;
+}  
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+   
+     color: #ffee00;
+}
 
     .icon-nav{
         font-size: 46px;
     }
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler{
+    font-size: 30px;
+    text-align: right;
+	color: rgba(255,255,0, 1);
+	border-color: rgba(255, 255, 0, 0);
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
 
-    /*
-    .nav-link, .nav-item{
-        text-align: left;
-        }
-    ul li a{
-        color: #000000;
-        margin: auto;
-        }
-    .moblie-nav{
-        background-color: transparent;
-        padding: 1px 29px 1px 29px;
-    }
-    #active-nav{
-    color: #db1d0d;
-    background-color:unset;
-   padding: unset;
-    } */
+
+.item-main-nav {
+    visibility: hidden;
+  }
     
     /*_____VENUE_PAGE_INFO__*/
 
