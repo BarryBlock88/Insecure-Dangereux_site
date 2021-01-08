@@ -32,7 +32,7 @@ body, html{
 .filler{
     background-color: transparent;
     width: 220px;
-    height: 440px;
+    height: 220px;
 }
 
 .id-bg-img{
@@ -111,85 +111,57 @@ background-position: bottom;
 
 /*-------heading and welcome-----*/
 
-
-
-.welcome-butt-main{
-    padding-right: 2px;
-}
-
-#welcome-link a:hover{
-    color:#db1d0d;
-    display: unset;
-    text-decoration: none;
-}
-
-#welcome-link .welcome-butt{
-    font-size: 120px;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    background-color: transparent;
+.main-heading{
     color: #ffee00;
-    margin-bottom: 248px;
-    padding-left: 50px;
-}
-
-.welcome-butt{
-    text-align: left;
+    background-color: #00000044;
+    text-align: center ;
     font-family: 'Montserrat', sans-serif;
-    background-color: transparent;
+}
+
+.main-heading p{
+      font-size: 35px;
+}
+.main-heading h2{
+      font-size: 90px;
+}
+.main-heading h3{
+      font-size: 40px;
+}
+
+/*_____news-section-homepg___*/
+.heading h1{
+    font-size: 30px;
     color: #ffee00;
-    margin-top: 100px;
-    margin-bottom: 248px;
-    padding-left: 50px;
+    background-color: #00000044;
+    text-align: center ;
 }
-
-
-.welcome-butt h2 {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 40px;
-  margin-top: -80px;
+.heading h2{
+    font-size: 20px;
+    color: #ffee00;
+    background-color: #00000044;
+    text-align: center ;
 }
-.welcome-butt h3{
-    text-align: left;
-}
-
-.welcome-butt p{
-  font-weight: 400;
-  font-style: italic;
-  font-size: 23px;
+.news p{
+    padding: 3px 5px 3px 5px;
+    font-size: 15px;
+    color: #ffee00;
+    background-color: #00000044;
+    text-align: center ;
 }
 
 
 
 /* ---- NAV BAER -----*/
 
-.navbar .container-fluid{
-    margin-top: 30px;
-}
-
-#nav-bar{
-    margin-bottom: 180px;
-}
 
 .col-3 nav{
     margin: auto;
-   
 }
-
-.fa-rotate-180{
-    margin: 0px 0px 0px 2px;
-}
-
 .nav-sticky{
      position: relative;
 }
 
-.icon-nav{
-    text-align: left;
-    margin-right: 9px;
-   
-}
+
 
 ul{
     padding: 0;
@@ -219,6 +191,7 @@ a{
     display: unset;
     padding: unset;
     font-size: 30px;
+    color: #000000;
 }
 
 li{
@@ -233,9 +206,6 @@ li{
 
 #active-nav{
     color: #ffee00;
-    margin: 10px 10px 10px 15px;
-    padding: 2px 2px 2px 3px;
-    border-radius: 3%;
 }
 
 
@@ -280,12 +250,47 @@ li{
     padding-bottom: 15px;
 }
 
+
+  /*_____NAVBAR____*/
+
+#active-nav-mobile{
+    color: #ffee00;
+    margin: 0;
+    padding: 2px 2px 2px 2px;
+}  
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+   
+     color: #000000;
+}
+
+.navbar.navbar-dark{
+    background-color: #db1d0d;
+}
+
+    .icon-nav{
+        font-size: 46px;
+    }
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler{
+    font-size: 35px;
+    text-align: right;
+	color: rgba(255,255,0, 1);
+    border-color: rgba(255, 255, 0, 0);
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+/*
 @media(min-width: 576px),(min-width: 768px){
-.mobile-nav{
-    visibility: hidden;
+
   
 }
-}
+*/
 
 
 /*________RESOSIVENESS____*/
@@ -328,10 +333,10 @@ li{
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-dark .navbar-toggler{
-    font-size: 30px;
+    font-size: 25px;
     text-align: right;
 	color: rgba(255,255,0, 1);
-	border-color: rgba(255, 255, 0, 0);
+    border-color: rgba(255, 255, 0, 0);
 }
 .btn.focus, .btn:focus {
 	outline: 0;
