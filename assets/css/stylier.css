@@ -97,6 +97,10 @@ background-position: bottom;
 .icon{
     padding-right: 7px;
 }
+.icon-gallery{
+    padding-right: 7px;
+    font-size: 30px;
+}
 
 .venues{
     text-align: center;
@@ -146,6 +150,8 @@ background-position: bottom;
 .main-heading h2{
       font-size: 90px;
       font-family: 'Montserrat Subrayada', sans-serif;
+      transform:translateY()
+
 }
 .main-heading h3{
       font-size: 40px;
@@ -165,6 +171,23 @@ background-position: bottom;
 .main-ticket-btn:hover{
     background-color: #db1d0d;
     border: none;
+}
+
+/*-------heading-simple-animations-----*/
+
+#anima .main-heading{
+    transform:scale(2,2)
+}
+.main-heading{
+animation: mainheading 2s forwards ease-in-out;
+}
+
+@keyframes mainheading{
+    0% {transform:scale(2,2)}
+    25%{transform:scale(1.7,1.7)}
+    50%{transform:scale(1.4,1.4)}
+    75%{transform:scale(0.8,0.8)}
+    100%{transform:scale(1,1)}
 }
 
 /*____calender-table____*/
