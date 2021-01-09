@@ -179,7 +179,7 @@ background-position: bottom;
     transform:scale(2,2)
 }
 .main-heading{
-animation: mainheading 2s forwards ease-in-out;
+animation: mainheading 1s forwards ease-in-out;
 }
 
 @keyframes mainheading{
