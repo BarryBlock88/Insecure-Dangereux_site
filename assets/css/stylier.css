@@ -25,9 +25,13 @@ body, html{
     visibility: hidden;
 }
 
-
-
 /*_______image styles_____*/
+
+img.caro-img{
+    padding: 150px;
+    text-align: center;
+}
+
 
 .filler{
     background-color: transparent;
@@ -39,14 +43,14 @@ body, html{
   height: 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  
 }
 .image1{
     background-image: url(/workspace/Insecure-Dangereux_site/assets/images/theblacksheep.jpg);
     background-position: center;
 }
 .image2{
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/65057785_908495176162796_5867742598482886656_n.jpg);
+    background-image: url(./assets/images/auBasin.jpg);
     background-position: center;
 }
 .image3{
@@ -80,18 +84,22 @@ background-position: bottom;
 
 /*______Venue-HEADERS______*/
 
+.venues{
+    text-align: center;
+}
 .venue-item{
     margin: 9px;
+    background-color: #db1e0d91;
+      color: #ffee00;
+      border-radius: 4%;
 }
 
 .venue-item h3{
        text-align: center;
-    font-family: 'Montserrat Subrayada', sans-serif;
-  color: #ffee00;
-  font-weight: 100;
-  font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 29px;
   padding-right: 20px;
-  background-color: rgba(7, 7, 7, 0.6);
    margin: auto;
    
 }
@@ -99,10 +107,9 @@ background-position: bottom;
 .venue-item p{
        text-align: center;
     font-family: 'Montserrat', sans-serif;
-  color: #ffee00;
-  font-weight: 600;
-  font-size: 20px;
-    background-color: rgba(7, 7, 7, 0.6);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6rem;
     margin: auto;
 }
 
@@ -120,12 +127,40 @@ background-position: bottom;
 
 .main-heading p{
       font-size: 35px;
+      
 }
 .main-heading h2{
       font-size: 90px;
+      font-family: 'Montserrat Subrayada', sans-serif;
 }
 .main-heading h3{
       font-size: 40px;
+}
+
+.main-ticket-btn{
+    background-color: #ffee00;
+    border: 1px solid #a79b00;
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-ticket-btn:hover{
+    background-color: #db1d0d;
+    border: none;
+}
+
+/*____calender-table____*/
+
+
+table.table-dark.table-hover{
+    background-color: #000000;
+    color: #db1d0d;
+    border: 2px solid #ffee00;
+}
+
+.disabled-date{
+    color: rgba(255, 0, 0, 0.5);
 }
 
 /*_____news-section-homepg___*/
@@ -244,7 +279,7 @@ li{
 
 .copyright p{
     color: #ffee00;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     margin: 0;
     padding-bottom: 15px;
