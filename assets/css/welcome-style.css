@@ -269,24 +269,38 @@ li{
 
 
 
-/*________RESOSIVENESS____*/
+/*-------heading-simple-animations-----*/
+
+.welcome-butt-main{
+    transform:scale(2,2)
+}
+.welcome-butt-main{
+animation: mainheading 2s forwards ease-in-out;
+}
+
+@keyframes mainheading{
+    0% {transform:scale(2,2)}
+    25%{transform:scale(1.7,1.7)}
+    50%{transform:scale(1.4,1.4)}
+    75%{transform:scale(0.8,0.8)}
+    100%{transform:scale(1,1)}
+}
+
+
+/*___________________________________________-_RESOSIVENESS___________________________________________________*/
 
 
 
-@media(max-width: 576px),(max-width: 768px){
+@media(max-width: 576px),(max-width: 767px){
     body,html{
     background-color: #000000;
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/mictail-mobile-bg2.png);
+    background-image: url(../images/mictail-mobile-bg2.png);
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     }
-    #welcome-page body,html{
-    top: -23%;
 }
-
-    }
 
 
 
