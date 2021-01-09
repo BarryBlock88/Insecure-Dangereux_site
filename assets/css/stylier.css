@@ -84,21 +84,25 @@ background-position: bottom;
 
 /*______Venue-HEADERS______*/
 
+.icon{
+    padding-right: 7px;
+}
+
 .venues{
     text-align: center;
 }
 .venue-item{
     margin: 9px;
-    background-color: #db1e0d91;
+    background-color: #000000;
       color: #ffee00;
-      border-radius: 4%;
+    
 }
 
 .venue-item h3{
        text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 29px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
   padding-right: 20px;
    margin: auto;
    
@@ -142,8 +146,11 @@ background-position: bottom;
     border: 1px solid #a79b00;
     color: #000;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 800;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 .main-ticket-btn:hover{
     background-color: #db1d0d;
@@ -152,13 +159,25 @@ background-position: bottom;
 
 /*____calender-table____*/
 
+.calender table{
+    margin: 10px 15px 20px 15px;
+    max-width: 70%;
+}
+
 
 table.table-dark.table-hover{
     background-color: #000000;
     color: #db1d0d;
     border: 2px solid #ffee00;
+   
+}
+table{
+    border-color:beige; ;
 }
 
+td{
+    border-left: 1px solid beige;
+}
 .disabled-date{
     color: rgba(255, 0, 0, 0.5);
 }
@@ -242,7 +261,13 @@ li{
 #active-nav{
     color: #ffee00;
 }
-
+.collapse,button.navbar-toggler.btn{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    height: 0%;
+    visibility: hidden;
+}
 
 /*------Social-links-------*/
 
@@ -320,12 +345,19 @@ li{
 	box-shadow: none;
 }
 
-/*
+
 @media(min-width: 576px),(min-width: 768px){
 
+        /*___moible-btn__*/
+.mobile-view{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    visibility: hidden;
+}
   
 }
-*/
+
 
 
 /*________RESOSIVENESS____*/
@@ -346,6 +378,13 @@ li{
 
 
 @media(max-width: 576px),(max-width: 768px){
+
+.desktop-btn{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    visibility: hidden;
+}
 
     /*_____NAVBAR____*/
 #active-nav-mobile{
