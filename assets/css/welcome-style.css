@@ -113,7 +113,7 @@ background-position: bottom;
 }
 
 #welcome-link a:hover{
-    color:#ffee00;
+    color:#db1d0d;
     display: unset;
     text-decoration: none;
 }
@@ -189,7 +189,7 @@ ul{
 ul a:link,
 a{
     background-color: transparent;
-    color: #db1d0d;
+    color: #ffee00;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
