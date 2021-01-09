@@ -387,7 +387,7 @@ nav.navbar.navbar-dark{
 @media(max-width: 576px),(max-width: 767px){
     body,html{
     background-color: #000000;
-    background-image: url(/workspace/Insecure-Dangereux_site/assets/images/mictail-mobile-bg2.png);
+    background-image: url(../images/mictail-mobile-bg2.png);
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
