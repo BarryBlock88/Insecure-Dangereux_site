@@ -139,6 +139,11 @@ background-position: bottom;
 
 /*-------heading and welcome-----*/
 
+.main-icon{
+    font-size: 70px;
+
+}
+
 .main-heading{
     color: #ffee00;
     background-color: #00000044;
