@@ -25,14 +25,32 @@
 </head>
 
 <body>
-     <nav class="navbar mobile-nav navbar-dark">
+    <nav class="navbar mobile-nav navbar-dark">
         <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="row container-fluid " id="nav-bar">
+            <ul class="row container-fluid " id="nav-bar">
+                <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                    <a class="nav-link active" href="live-shows.html">Live Shows</a>
+                </li>
+                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                    <a class="nav-link active" href="gallery.html">Gallery</a>
+                </li>
+                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                    <a class="nav-link active" href="about-us.html">About Us</a>
+                </li>
+                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                    <a class="nav-link active" id="active-nav" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="row container-fluid " id="nav-bar-lg">
             <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active"  href="home.html">Home</a>
+                <a class="nav-link active" href="home.html">Home</a>
             </li>
             <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
                 <a class="nav-link active" href="live-shows.html">Live Shows</a>
@@ -44,31 +62,13 @@
                 <a class="nav-link active" href="about-us.html">About Us</a>
             </li>
             <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" id="active-nav" href="contact.html">Contact</a>
+                <a class="nav-link active" id="active-nav-lg" href="contact.html">Contact</a>
             </li>
         </ul>
-        </div>
-         <ul class="row container-fluid " id="nav-bar-lg">
-                <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active"  href="home.html">Home</a>
-                </li>
-                <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" href="live-shows.html">Live Shows</a>
-                </li>
-                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active"  href="gallery.html">Gallery</a>
-                </li>
-                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" href="about-us.html">About Us</a>
-                </li>
-                <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" id="active-nav-lg" href="contact.html">Contact</a>
-                </li>
-            </ul>
     </nav>
 
 
-     <div class="container-fluid filler-light"></div>
+    <div class="container-fluid filler-light"></div>
     <div class="container-fluid filler"></div>
     <div class="container-fluid row">
         <div class="col-12 main-heading">
@@ -79,9 +79,28 @@
     </div>
 
 
-    
+
     <div class="container-fluid filler"></div>
-    
+    <div class="contact-pg-form row">
+        <div class="col-lg-3 col-xs-1"></div>
+        <form class="col-lg-6 col-xs-10 m-auto row">
+            <p class="col-12 select-title">Nice To Meet You<i class=" icon far fa-arrow-alt-circle-down"></i></p>
+            <input type="text" name="name" id="fullname" class="input-space col-12" placeholder="Your Name" required />
+            <input type="email" name="email" id="emailaddress" class="imput-space col-12" placeholder="Your Email" required />
+            <p class="col-12 select-title">How Can We Help?<i class=" icon far fa-arrow-alt-circle-down"></i></p>
+            <select class="col-12" id="enquiry" name="enquiry" required>
+                <option value="perform">I'd like to perform</option>
+                <option value="info">I'm looking for more info</option>
+                <option value="hi">I just wanted to say hi</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea rows="5" name="projectsummary" id="projectsummary" class="col-12 text-area-contact"
+                placeholder="Whatever you want here" required></textarea>
+            
+               <button type="submit" class="btn btn-contact col-12">Send it on its way</button>
+        </form>
+        <div class="col-lg-3 col-xs-1"></div>
+    </div>
     <div class="container-fluid filler"></div>
     <div class="container-fluid scroll-image">
     </div>

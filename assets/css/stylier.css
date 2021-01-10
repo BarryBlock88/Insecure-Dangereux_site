@@ -242,8 +242,67 @@ td{
     text-align: center ;
 }
 
+/* ---- contact page -----*/
+.contact-pg-form input,
+.contact-pg-form textarea,
+.contact-pg-form select{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    margin: 20px;
+    padding: 10px;
+    color: #ffffff;
+align-self: center;}
+
+.contact-pg-form textarea{
+height: 250px;
+}
+.contact-pg-form input:focus,
+.contact-pg-form textarea:focus,
+.contact-pg-form select:focus{
+    border: 1px solid #fffb0b;
+}
+
+.col-12 {
+	-ms-flex: unset ;
+	flex: unset; 
+	max-width: 100%;
+}
 
 
+.contact-pg-form .icon{
+ padding-left: 8px;
+}
+ 
+.contact-pg-form p{
+    margin-top: 20px;
+    font-weight: 700;
+    color: #ffee00;
+    font-size: 25px;
+}
+
+.contact-pg-form form{
+    width: 70%;
+    background-color: #db1d0d;
+    color: #000;
+    border-color: black;
+    border-radius: 3%;
+}
+
+.contact-pg-form button:hover{
+color: #000000;
+background-color: #ffee00;
+}
+
+.contact-pg-form button{
+margin: 10px 10px 25px 10px;
+padding: 10px 7px 10px 7px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 20px;
+background-color: #000000;
+color: #ffffff;
+
+}
 /* ---- NAV-BAR -----*/
 
 
@@ -559,5 +618,34 @@ table tbody{
         background-repeat: no-repeat;
         background-size: cover;
         opacity: 0.5;
+}
+
+/* ---- contact page -----*/
+.contact-pg-form input,
+.contact-pg-form select{
+    margin: 14px;
+    padding: 7px;
+    }
+
+.contact-pg-form textarea{
+    padding: 20px;
+    height: 300px;
+}
+
+.contact-pg-form .icon{
+ padding-left: 8px;
+}
+.contact-pg-form p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.contact-pg-form button{
+margin: 75px 10px 25px 10px;
+padding: 15px 5px 15px 5px;
+font-size: 20px;
+text-align: center;
+
 }
 }
