@@ -101,6 +101,9 @@ background-position: bottom;
     padding-right: 7px;
     font-size: 30px;
 }
+.fa-rotate{
+    transform: rotate(45deg);
+}
 
 .venues{
     text-align: center;
@@ -293,6 +296,18 @@ li{
 }
 
 
+/*------Galleryandimages-------*/
+
+.img-caption p{
+    background-color: #0000008c;
+    color: #db1d0d;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+
 /*------Social-links-------*/
 
 
@@ -423,6 +438,12 @@ nav.navbar.navbar-dark{
 .desktop-btn{
   display: none;
 }
+
+.mobile-view.main-ticket-btn:hover{
+    background-color: #db1d0d;
+    border: none;
+}
+
 .filler{
     background-color: transparent;
     width: 220px;
