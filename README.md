@@ -148,10 +148,10 @@ The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari brow
 The site was developed in GitPod and pushed to the following remote GitHub repository - (https://github.com/BarryBlock88/Insecure-Dangereux_site)
 ##### The following GIT commands were used throughout deployment:
 
-git status ------ used to check the status of files and to see which have been modified. 
-git add . ------ to to move files to the stage before commit. 
-git commit ------- to commit the files in gitpod, insert text on the main terminal instead of in brackets as in pervious versions.
-git push ------ to push the files to the master branch of your GitHub repository. 
+1. git status ------ used to check the status of files and to see which have been modified. 
+2. git add . ------ to to move files to the stage before commit. 
+3. git commit ------- to commit the files in gitpod, insert text on the main terminal instead of in brackets as in pervious versions.
+4. git push ------ to push the files to the master branch of your GitHub repository. 
 
 
 ### Hosting on GitHub Pages
