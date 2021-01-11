@@ -301,8 +301,23 @@ font-weight: 700;
 font-size: 20px;
 background-color: #000000;
 color: #ffffff;
-
 }
+
+.contact-details{
+font-size: 20px;
+color: #ffee00;
+font-family: 'Montserrat', sans-serif;
+}
+.contact-details .icon{
+font-size: 25px;
+}
+
+#gmap{
+    text-align: center;
+    margin: auto;
+    filter: grayscale(1);
+}
+
 /* ---- NAV-BAR -----*/
 
 
