@@ -308,14 +308,18 @@ font-size: 20px;
 color: #ffee00;
 font-family: 'Montserrat', sans-serif;
 }
-.contact-details .icon{
+.desk-icon{
 font-size: 25px;
 }
+
+
 
 #gmap{
     text-align: center;
     margin: auto;
     filter: grayscale(1);
+    width: 100%;
+    height: 408px;
 }
 
 /* ---- NAV-BAR -----*/
@@ -464,6 +468,7 @@ li{
 }
 
 
+
 @media(min-width: 576px),(min-width: 767px){
 
 
@@ -490,7 +495,11 @@ nav.navbar.navbar-dark{
 .mobile-view{
    display: none;
 }
-  
+
+/*---icon-cotact-pg---*/
+  .mob-icon{
+display: none;
+}
 }
 
 
@@ -662,5 +671,23 @@ padding: 15px 5px 15px 5px;
 font-size: 20px;
 text-align: center;
 
+}
+
+.contact-details{
+font-size: 25px;
+text-align: center;
+}
+
+.desk-icon{
+display: none;
+}
+.mob-icon{
+font-size: 30px;
+}
+
+#gmap{
+    margin: 0px 4px 0px 4px;
+    width: 97.5%;
+    height: 408px;
 }
 }
