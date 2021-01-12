@@ -20,6 +20,7 @@
     <title>Need Your Fix?</title>
 </head>
 <body id="welcome-page">
+    <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
    <div class="container-fluid filler"></div>
 
 <div class="container-fluid row welcome-butt-main">
@@ -59,6 +60,20 @@
  
 
 
+   <script>
+        $(".animated").addClass("delay-3s");
 
+        $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('#toTop').fadeIn();
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
+
+$("#toTop").click(function() {
+    $("html, body").animate({scrollTop: 0}, 800);
+ });
+    </script>
 </body>
 </html>

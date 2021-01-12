@@ -18,6 +18,17 @@ body, html{
     position: relative;
 }
 
+#toTop {
+    padding: 20px;
+    background: #000;
+    color: #ffee00;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 0;
+    right: 5px;
+    display: none;
+}
+
 /*
 #welcome-page body,html{
     top: -23%;

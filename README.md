@@ -173,8 +173,7 @@ News text on the Gome page is from Boom Chicago (https://boomchicago.nl/)
 ### Code Snippet Credits 
 - Nav-bar as part of bootstrap but with alot of fiddling and changeing to make it work for me as it didnt initially.
 - back to top jquery snippet from here (https://stackoverflow.com/questions/14249998/jquery-back-to-top) with my own css.
-- 
-
+- Modal to thank you for submitting/ no show right now due to covid-19 (https://bootsnipp.com/snippets/z86nx)
 ### Media
 - The images used are of my own design, using graphic tablet, GIMP and other methods 
     - (assets/wireframes_milestone_one/logo-making1.jpg) 
