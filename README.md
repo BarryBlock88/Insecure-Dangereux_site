@@ -78,7 +78,7 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
 
 - I want the Website to be original, engaging, simple, direct and easy to use. The user mustn't be overwhelmed with information, so I make a goal to have just the right amount of pages with just the right amount of information on each with the option to contact the website client for questions or more information if they wish.
 
-- All pages except the welcome page will be structurally similar. At the top of each page, a fixed responsive navigation bar will indicate clearly to the user which page they are currently viewing and a change when they hover over the navigation menu containing links to other pages displaying active links. The user experience should be energised by the simple colour choices and the easy to navigate page structure. Each page will contain its social links in the footer of the page with simple icons clearly defined. This navigation bar will collapse on mobile devices to show only the hamburger menu icon, which will be aligned to each page's top-left corner.
+- All pages except the welcome page will be structurally similar. At the top of each page, a fixed responsive navigation bar will indicate clearly to the user which page they are currently viewing and a change when they hover over the navigation menu containing links to other pages displaying active links. The user experience should be energised by the simple colour choices and the easy to navigate page structure. Each page will contain its social links in the footer of the page with simple icons clearly defined. This navigation bar will collapse on mobile devices to show only the hamburger menu icon, aligned to each page's top-left corner.
 
 - Research has been done on many other websites on the internet, looking at other businesses, comedy clubs, venues, promotional companies. 
 
@@ -96,7 +96,7 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
     easily facilitated by filling out a minimalistic user-friendly contact form.
 
 ### Additional features to add
-To integrate Eventbrite's embedded checkout into the page itself rather than being a link to their site, I believe interrupts my site's user experience.
+To integrate Eventbrite's embedded checkout into the page itself rather than link to their site, I believe interrupts my site's user experience.
 This could be done after obtaining an HTTPS certificate.
 - A pop-up modal to become a member of our community.
 - A Merch page and checkout cart system to buy and pay for merchandise.
@@ -114,7 +114,7 @@ This could be done after obtaining an HTTPS certificate.
 2. Bootstrap 4 (https://getbootstrap.com/) was used to assist with the responsiveness and the Website's grid system.
 3. Google Fonts (https://fonts.google.com/) were used to import the 'Montserrat' font into the stylier.css used throughout the project.
 4. Font Awesome (https://fontawesome.com/) for the website icons for UX ease of use.
-5. JQuery (https://jquery.com/)to make the Navbar responsive part of Bootstrap and used for back to top button.
+5. JQuery (https://jquery.com/)to make the Navbar responsive part of Bootstrap and back to the top button.
 6. Gitpod (https://gitpod.io/) was used as a code development environment.
 7. Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
 8. GitHub (https://github.com/) is used to store all the code for this project after pushing from Gitpod.
@@ -122,7 +122,7 @@ This could be done after obtaining an HTTPS certificate.
 10. Balsamiq (https://balsamiq.com/) was used to create the wireframes during the design process.
 
 ### Testing
-There were no syntax errors in the project.
+In the project, no syntax errors were detected, as validated by -
 W3C Markup Validator 
 (image)
 W3C CSS Validator 
@@ -140,23 +140,23 @@ The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8
 The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari browsers. 
 #### Issues Found
 
-- Bootstrap with customization was a challange but it worked out after some intensive Research.
-- The text on the main nav in mobile dropdown view did not show on some devices but after hovering over it began to become visible. 
+- Bootstrap with customisation was a challenge, but it worked out after some intensive research.
+The text on the primary nav in the mobile dropdown view did not show on some devices, but it became visible after hovering. 
 
 
 ## Deployment
 The site was developed in GitPod and pushed to the following remote GitHub repository - (https://github.com/BarryBlock88/Insecure-Dangereux_site)
 ##### The following GIT commands were used throughout deployment:
 
-1. git status ------ used to check the status of files and to see which have been modified. 
-2. git add . ------ to to move files to the stage before commit. 
-3. git commit ------- to commit the files in gitpod, insert text on the main terminal instead of in brackets as in pervious versions.
-4. git push ------ to push the files to the master branch of your GitHub repository. 
+1. git add. -to move files to the stage before commit. 
+2. git commit - to commit the files in Gitpod, insert text on the main terminal instead of in brackets as in previous versions.
+3. git push - to push the files to the master branch of your GitHub repository. 
+4. git pull - on occasion when the push showed an error.
 
 
 ### Hosting on GitHub Pages
-- This site is hosted using GitHub pages, deployed directly from the master branch. - LIVE SITE
-- The following steps were taken to complete the hosting process.
+- This site is hosted on GitHub pages, deployed directly from the repositories master branch. - LIVE SITE
+- The hosting process was completed via the following steps.
 - Log into GitHub. 
 - Choose the relevant repository  
 - Go to settings of that repository (the far right tab)
@@ -167,27 +167,31 @@ The site was developed in GitPod and pushed to the following remote GitHub repos
 ### Content
 Is from an article about Insecure & Dangereux from Brussels Times
 here (https://www.brusselstimes.com/belgium/74008/a-look-at-belgiums-insecure-dangereux-comedy-club/)
-Images in the Gallery are from the Insecure & Dangereux facebook page.
+Images in the Gallery are from the Insecure & Dangereux Facebook page.
 News text on the Gome page is from Boom Chicago (https://boomchicago.nl/)
 
-Code Snippet Credits 
+### Code Snippet Credits 
+- Nav-bar as part of bootstrap but with alot of fiddling and changeing to make it work for me as it didnt initially.
+- back to top jquery snippet from here (https://stackoverflow.com/questions/14249998/jquery-back-to-top) with my own css.
+- 
+
 ### Media
 - The images used are of my own design, using graphic tablet, GIMP and other methods 
     - (assets/wireframes_milestone_one/logo-making1.jpg) 
     - (assets/wireframes_milestone_one/logo-making2.jpg)
 
-- The photographs are from real past comedy shows (2018/2019/2020) which i have full rights to use.
+- The photographs are from real past comedy shows (2018/2019/2020) which I have full rights to use.
 - The tab icon is also my design
 
 ### Acknowledgements
  received inspiration for this project from other comedy websites such as 
  The International Comedy Club, Dublin (https://www.theinternationalcomedyclub.com/) and Boom Chicago, Amsterdam (https://boomchicago.nl/)
 
-##### Websites/Online services used for project:
-1. https://techsini.com/ used  for the screenshot at the top of my README filed to display the webside on different devices.
+##### Websites/Online services used for the project:
+1. https://techsini.com/ used for the screenshot at the top of my README filed to display the Website on different devices.
 2. Stack Overflow (https://stackoverflow.com/) used to solve coding doubts during the web creation process.
 3. W3school (https://www.w3schools.com) used to solve coding doubts during the web creation process.
-4. Bootstrap (https://getbootstrap.com/) was used to assist with the responsiveness and styling of the website in different areas such as footer or form.
+4. Bootstrap (https://getbootstrap.com/) was used to assist with the Website's responsiveness and styling in different areas such as footer or form.
 5. TinyPNG (https://tinypng.com/) to compress file sizes for faster load times.
 6. https://www.vectorizer.io/
 
@@ -195,7 +199,7 @@ Code Snippet Credits
 
 ## Advice and support
 
-- All the lovely people who helped give advice on Slack Community (various students and tutors) 
+- All the lovely people who helped advise on Slack Community (various students and tutors) 
 - My Mentor Caleb Mbakwe
 - Code Institute - videos
 - W3school for helping my understand bootstrap documentation

@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
     <nav class="navbar mobile-nav navbar-dark">
         <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -67,6 +68,7 @@
         </ul>
     </nav>
 
+
     <div class="container-fluid filler-light"></div>
     <div class="container-fluid filler"></div>
     <div class="container-fluid row">
@@ -77,6 +79,7 @@
 
         </div>
     </div>
+
 
     <div class="container-fluid filler"></div>
 
@@ -151,6 +154,18 @@
     </div>
     <script>
         $(".animated").addClass("delay-3s");
+
+        $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('#toTop').fadeIn();
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
+
+$("#toTop").click(function() {
+    $("html, body").animate({scrollTop: 0}, 800);
+ });
     </script>
 </body>
 
