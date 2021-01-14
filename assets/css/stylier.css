@@ -64,7 +64,7 @@ body, html{
 .modal-content #no-tickets span{
     color: #ffee00;
     font-size: 50px;
-    box-shadow: #000;
+    box-shadow: none;
 }
 
 /*_______image styles_____*/
@@ -190,7 +190,7 @@ img.caro-img{
 .main-heading h2{
       font-size: 80px;
       font-family: 'Montserrat Subrayada', sans-serif;
-      transform:translateY()
+     
 
 }
 .main-heading h3{
@@ -295,7 +295,6 @@ height: 250px;
 }
 
 .col-12 {
-	-ms-flex: unset ;
 	flex: unset; 
 	max-width: 100%;
 }
@@ -645,7 +644,7 @@ table tbody{
 
     .opac{
         background: black;
-        opacity: none;
+        
     }
 
     .venue-item p{

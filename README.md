@@ -16,11 +16,11 @@
 - It is an actual comedy club based in Brussels, that I founded, though various elements are real and others are fake adopted from multiple sources where credited.
 
 
-- The Website begins as a straightforward presentation, asking one single question. To help keep the eye focused, the site only uses three colours and an edit made of the primary company logo with one line of text in the form of a question. I call this the 'Call to Action page'. 
+- The Website begins as a straightforward presentation. To help keep the eye focused, the site only uses three colours and an edit made of the primary company logo with one line of text to inform the use of each page. 
 
 - Each page will feature the company logo and a button to purchase tickets.
 
-- Each page will contain a footer with four social links *except the Call-to-action page.
+- Each page will contain a footer with four social links 
 
 - There are 5-page links located on the Navbar.
     - Homepage that contains the company name, what they do and below that any recent News or updates.
@@ -87,7 +87,6 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
 ### Current Features
 ##### Website allows the user to - 
 
-- Call to action or welcome page to invite the user to the main-site and provoke curiosity.
 - *Home page - has recent news and title text and book tickets option which continues on each page.
 - _Gallery page_ - lets you see images of past shows and Watch select videos of comedians on stage
 - On the *footer* of every page there are social media links to the Club's social media sites (Facebook, Twitter, Youtube, Instagram) 
@@ -124,10 +123,12 @@ This could be done after obtaining an HTTPS certificate.
 ### Testing
 In the project, no syntax errors were detected, as validated by -
 W3C Markup Validator 
-(image)
+![Image-html](assets/wireframes_milestone_one/Screenshot_2021-01-14 Showing results for contents of text-input area - Nu Html Checker.png)
 W3C CSS Validator 
-(image)
-Testing
+![Image-css](assets/wireframes_milestone_one/Screenshot_2021-01-14 W3C CSS Validator results for TextArea (CSS level 3 + SVG).png)
+
+
+## Testing
 
 
 ### General
