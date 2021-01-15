@@ -112,17 +112,19 @@ img.caro-img{
 }
 .about-us1{
     background: url(../images/about-image-1.jpg) no-repeat;
-    width: 70%;
-    height: 300px;
+     height: 400px;
+      width: 100%;
+    background-position: center;
     position: relative;
-     background-size: cover;
+     background-size: contain;
 }
 .about-us2{
     background: url(../images/founders-of-ID.jpg) no-repeat;
-    width: 70%;
-    height: 300%;
+     height: 400px;
+     width: 100%;
+    background-position: center;
     position: relative;
-     background-size: cover;
+     background-size: contain;
 }
 /*______Venue-HEADERS______*/
 
@@ -669,13 +671,7 @@ table tbody{
         text-align: center;
     }
 
-    /*_____IMAGES_____*/
-        .id-bg-img{
-        height: 30%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.5;
-}
+
 
 /* ---- contact page -----*/
 .contact-pg-form input,
@@ -728,16 +724,22 @@ font-size: 30px;
       font-size: 20px;
       
 }
-
+/*
 .about-us1{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.about-us2{
-    width: 100%;
-    height: 100%;
-    position: relative;
+     height: 300px;
+     background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
 }
 
+.about-us2{
+    height: 300px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+*/
 }
