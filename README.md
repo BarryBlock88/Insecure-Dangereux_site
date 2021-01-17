@@ -97,15 +97,17 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
 ### Additional features to add
 To integrate Eventbrite's embedded checkout into the page itself rather than link to their site, I believe interrupts my site's user experience.
 This could be done after obtaining an HTTPS certificate.
-- A pop-up modal to become a member of our community.
+- A form so comedians can become a member of our community.
 - A Merch page and checkout cart system to buy and pay for merchandise.
-- I would like to make the calendar more functional using Javascript or Jquery.
+- I would like to make the calendar more dynamic using Javascript or Jquery.
 - I would like to make the form submittable in future with PHP.
+
 
 ### Technologies Used
 #### Languages Used
 1. HTML5 
 2. CSS3
+3. JQuery (a snippet of code used in the form walked througn by my Mentor)
 
 ### Frameworks, Libraries & Programs
     
@@ -140,9 +142,10 @@ The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8
 #### Browsers
 The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari browsers. 
 #### Issues Found
-
+- Had difficuly styling the Table (calendar) with CSS for smaller screens, so decided to leave it out for screens under desktop/laptop size.
 - Bootstrap with customisation was a challenge, but it worked out after some intensive research.
-The text on the primary nav in the mobile dropdown view did not show on some devices, but it became visible after hovering. 
+###### bugs
+- The text on the primary nav in the mobile dropdown view did not show on some devices, but it became visible after hovering. 
 
 
 ## Deployment
@@ -166,19 +169,20 @@ The site was developed in GitPod and pushed to the following remote GitHub repos
 - Your site will be active in 3 to 10 minutes.
 ## Credits
 ### Content
-Is from an article about Insecure & Dangereux from Brussels Times
+- About us section is adapted from an article about Insecure & Dangereux from Brussels Times
 here (https://www.brusselstimes.com/belgium/74008/a-look-at-belgiums-insecure-dangereux-comedy-club/)
-Images in the Gallery are from the Insecure & Dangereux Facebook page.
-News text on the Gome page is from Boom Chicago (https://boomchicago.nl/)
+- Images in the Gallery are from the Insecure & Dangereux Facebook page.
+- News text on the Home page is from Boom Chicago (https://boomchicago.nl/)
 
 ### Code Snippet Credits 
 - Nav-bar as part of bootstrap but with alot of fiddling and changeing to make it work for me as it didnt initially.
 - back to top jquery snippet from here (https://stackoverflow.com/questions/14249998/jquery-back-to-top) with my own css.
 - Modal to thank you for submitting/ no show right now due to covid-19 (https://bootsnipp.com/snippets/z86nx)
+- With my mentor (Caleb Mbakwe) i was walked through a small piece of coding to may the pop up modal not show unless the form is filled out, this can be seen on the contact page.
 ### Media
 - The images used are of my own design, using graphic tablet, GIMP and other methods 
-    - (assets/wireframes_milestone_one/logo-making1.jpg) 
-    - (assets/wireframes_milestone_one/logo-making2.jpg)
+    - ![Main-image-development-design 1](assets/wireframes_milestone_one/logo-making1.jpg) 
+    - ![Main-image-development-design 2](assets/wireframes_milestone_one/logo-making2.jpg)
 
 - The photographs are from real past comedy shows (2018/2019/2020) which I have full rights to use.
 - The tab icon is also my design
