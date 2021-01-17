@@ -18,14 +18,16 @@
 
 - The Website begins as a straightforward presentation. To help keep the eye focused, the site only uses three colours and an edit made of the primary company logo with one line of text to inform the use of each page. 
 
-- Each page will feature the company logo and a button to purchase tickets.
+- Each page will feature the company logo.
+
+- three of the pages will have button to purchase tickets.
 
 - Each page will contain a footer with four social links 
 
 - There are 5-page links located on the Navbar.
     - Homepage that contains the company name, what they do and below that any recent News or updates.
     - Live shows in this instance is the home page and it tells us when the next show is happening along with a small paragraph about the page it also contains a few lines on each of our venues. News is an area with articles about the Club and recent updates.
-    - Gallery includes videos and a photo carousel of past shows. (planning to use a bootstrap carousel code snippet for this feature.
+    - Gallery includes photos of past shows. (planning to use a bootstrap carousel code snippet for this feature in future versions.)
     - About us is a page giving a section on our history of the Club and the people involved in the setup and running of the Club.
     - Contact contains information on the location of our offices, email, phone number and an enquiry form for any questions a user may have.
 
@@ -101,6 +103,7 @@ This could be done after obtaining an HTTPS certificate.
 - A Merch page and checkout cart system to buy and pay for merchandise.
 - I would like to make the calendar more dynamic using Javascript or Jquery.
 - I would like to make the form submittable in future with PHP.
+- I would like to include videos and photos using bootstrap carousel in future versions.
 
 
 ### Technologies Used
