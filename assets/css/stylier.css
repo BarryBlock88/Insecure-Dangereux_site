@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 
-/*____happy-new-year-2021____*/
+/*____main-body_styles____*/
 
 body, html {
   height: 100vh;
@@ -18,7 +18,7 @@ body, html{
     position: relative;
     
 }
-
+/*__ back to top button__*/
 #toTop .fas{
     font-size: 58px;
 }
@@ -35,9 +35,6 @@ body, html{
     display: none;
 }
 
-.hidden{
-    visibility: hidden;
-}
 
 /*_______thank you pop up_____*/
 
@@ -55,6 +52,7 @@ body, html{
     font-family: 'Montserrat', sans-serif;
 }
 
+/*__no-tickets-modal___*/
 .modal-content #no-tickets{
     background-color:#000;
     color: #fafafa;
@@ -76,6 +74,15 @@ img.caro-img{
     padding: 150px;
     text-align: center;
 }
+
+.id-bg-img{
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*___filler spaces for the page__*/
+
 .filler-extra-light{
     background-color: transparent;
     width: 80px;
@@ -94,11 +101,6 @@ img.caro-img{
     height: 180px;
 }
 
-.id-bg-img{
-  height: 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /*_________ABOUT US page__________________*/
 
@@ -174,7 +176,7 @@ img.caro-img{
 
 
 
-/*-------heading and welcome-----*/
+/*-------heading and welcome text-----*/
 
 .main-icon{
     font-size: 70px;
@@ -202,6 +204,8 @@ img.caro-img{
       font-size: 40px;
 }
 
+/*_____buy-tickets-btn__*/
+
 .main-ticket-btn{
     background-color: #ffee00;
     border: 1px solid #a79b00;
@@ -218,7 +222,7 @@ img.caro-img{
     border: none;
 }
 
-/*-------heading-simple-animations-----*/
+/*-------header-text-animations-----*/
 
 #anima .main-heading{
     transform:scale(2,2)
@@ -505,7 +509,7 @@ li{
 	box-shadow: none;
 }
 
-
+/*________________________RESONSIVENESS-1________________*/
 
 @media(min-width: 576px),(min-width: 767px){
 
@@ -529,7 +533,7 @@ nav.navbar.navbar-dark{
    display: none;
 }
 
-        /*___moible-btn__*/
+        /*___mobile-btn__*/
 .mobile-view{
    display: none;
 }
@@ -542,7 +546,7 @@ display: none;
 
 
 
-/*___________________________________________-_RESOSIVENESS___________________________________________________*/
+/*_______________________________________RESOSIVENESS-2__________________________________________________*/
 
 
 
@@ -569,6 +573,8 @@ display: none;
     background-color: #db1d0d;
     border: none;
 }
+
+/*_____body-filler_____*/
 
 .filler{
     background-color: transparent;
