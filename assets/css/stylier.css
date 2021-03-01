@@ -223,7 +223,7 @@ img.caro-img{
 
 
 .main-ticket-btn:hover{
-    background-color: #d14437;
+    background-color: #da1d0d;
     border: none;
 }
 
@@ -253,7 +253,7 @@ animation: mainheading 1s forwards ease-in-out;
 
 table.table-dark.table-hover{
     background-color: #000000;
-    color: #d14437;
+    color: #da1d0d;
     border: 2px solid #faef53;
    
 }
@@ -330,7 +330,7 @@ height: 250px;
 
 .contact-pg-form form{
     width: 70%;
-    background-color: #d14437;
+    background-color: #da1d0d;
     color: #000;
     border-color: black;
     border-radius: 3%;
@@ -392,7 +392,7 @@ ul{
 ul a:link,
 a{
     background-color: transparent;
-    color: #d14437;
+    color: #da1d0d;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -431,7 +431,7 @@ li{
 
 .img-caption p{
     background-color: #0000008c;
-    color: #d14437;
+    color: #da1d0d;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -444,7 +444,7 @@ li{
 
 .social-area,
 .copyright{
-    background-color: #d14437;
+    background-color: #da1d0d;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -495,7 +495,7 @@ li{
 }
 
 .navbar.navbar-dark{
-    background-color: #d14437;
+    background-color: #da1d0d;
 }
 
     .icon-nav{
@@ -531,7 +531,7 @@ nav.navbar.navbar-dark{
     background-color:transparent;
 }
 .nav-link{
-    color: #d14437;
+    color: #da1d0d;
 }
 
 /*____mobile-nav-view-hidden---*/
@@ -576,7 +576,7 @@ display: none;
 }
 
 .mobile-view.main-ticket-btn:hover{
-    background-color: #d14437;
+    background-color: #da1d0d;
     border: none;
 }
 
@@ -627,7 +627,7 @@ table tbody{
 
 
 #active-nav-mobile{
-    background-color: #d14437;
+    background-color: #da1d0d;
     border-radius: 3.3%;
     color: #faef53;
     margin: 0;
@@ -648,7 +648,7 @@ table tbody{
 .navbar-dark .navbar-toggler{
     font-size: 25px;
     text-align: right;
-	color: rgb(250, 250, 58);
+	color: rgb(252, 252, 85);
     border-color: rgba(255, 255, 0, 0);
 }
 .btn.focus, .btn:focus {
