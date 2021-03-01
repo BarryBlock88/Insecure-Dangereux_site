@@ -25,17 +25,40 @@
 </head>
 
 <body>
-    <nav class="navbar mobile-nav navbar-dark">
-        <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="row container-fluid " id="nav-bar">
+    <header>
+        <!---back-to-top-icon-->
+        <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
+        <!-- mobile view navbar-->
+        <nav class="navbar mobile-nav navbar-dark">
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="row container-fluid " id="nav-bar">
+                    <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" id="active-nav" href="live-shows.html">Live Shows</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--main navbar desktop view-->
+            <ul class="row container-fluid " id="nav-bar-lg">
                 <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
                     <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" id="active-nav" href="live-shows.html">Live Shows</a>
+                    <a class="nav-link active" id="active-nav-lg" href="live-shows.html">Live Shows</a>
                 </li>
                 <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
                     <a class="nav-link active" href="gallery.html">Gallery</a>
@@ -47,222 +70,248 @@
                     <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
             </ul>
-        </div>
-        <ul class="row container-fluid " id="nav-bar-lg">
-            <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" id="active-nav-lg" href="live-shows.html">Live Shows</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="gallery.html">Gallery</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="about-us.html">About Us</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        </nav>
 
-    <div class="container-fluid filler-light"></div>
-    <div class="container-fluid filler"></div>
-    <div class="container-fluid row">
-        <div class="col-12 main-heading">
-            <h2>Live Comedy in Brussels</h2>
-            <h3>Check out what's happening tris montr</h3>
-            <p><i class="icon-gallery far fa-arrow-alt-circle-down"></i></p>
-        </div>
-    </div>
-
-    <div class="container-fluid filler"></div>
-    <div class="container-fluid venues row">
-        <div class="col">
-            <div class="row">
-                <div class="venue-item col-xs-12 col-lg-7">
-                    <h3><i class="icon far fa-arrow-alt-circle-right"></i>Au Basin</h3>
-                    <p>tre big one where we showcase national and international talent where since 2019.</p>
-                    <p>we run 1 gig a montr here, on tre last wednesday of tre montr.</p>
-                    <p>200+ seat capacity but get in early as it books up fast.</p>
-                    <button class="btn mobile-view main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
-                        Book Tickets</button>
-                </div>
-                <div class="col-lg-4">
-                    <button class="desktop-btn btn main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
-                        Book Tickets</button>
-                </div>
+        <div class="container-fluid filler-light"></div>
+        <div class="container-fluid filler"></div>
+        <!--main heading-->
+        <div class="container-fluid row">
+            <div class="col-12 main-heading">
+                <h2>Live Comedy in Brussels</h2>
+                <h3>Check out what's happening tris montr</h3>
+                <p><i class="icon-gallery far fa-arrow-alt-circle-down"></i></p>
             </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid filler"></div>
+        <!--Venue information-->
+        <div class="container-fluid venues row">
+            <div class="col">
+                <div class="row">
+                    <div class="venue-item col-xs-12 col-lg-7">
+                        <h3><i class="icon far fa-arrow-alt-circle-right"></i>Au Basin</h3>
+                        <p>the big one where we showcase national and international talent where since 2019.</p>
+                        <p>we run 1 gig a montr here, on tre last wednesday of tre montr.</p>
+                        <p>200+ seat capacity but get in early as it books up fast.</p>
+                        <button class="btn mobile-view main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>
+                            Book Tickets</button>
+                    </div>
+                    <!--ticket button-->
+                    <div class="col-lg-4">
+                        <button class="desktop-btn btn main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>
+                            Book Tickets</button>
+                    </div>
+                </div>
 
-            <div class="row">
-                <div class="venue-item col-lg-7 col-xs-12">
-                    <h3><i class=" icon far fa-arrow-alt-circle-right"></i>tre Black Sheep</h3>
-                    <p>tre Newest Gig tre Irish gastro pub where stand up comedy has long been a placesetting.
-                    </p>
-                    <p>we run 1 gig on tre 1st tuesday of tre montr here.</p>
-                    <p>limited capacity so get in early to claim your seat.</p>
-                    <button class="btn mobile-view main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
-                        Book Tickets</button>
+                <div class="row">
+                    <div class="venue-item col-lg-7 col-xs-12">
+                        <h3><i class=" icon far fa-arrow-alt-circle-right"></i>the Black Sheep</h3>
+                        <p>the Newest Gig tre Irish gastro pub where stand up comedy has long been a placesetting.
+                        </p>
+                        <p>we run 1 gig on tre 1st tuesday of the month here.</p>
+                        <p>limited capacity so get in early to claim your seat.</p>
+                        <button class="btn mobile-view main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>
+                            Book Tickets</button>
+                    </div>
+                    <!--ticket button-->
+                    <div class="col-lg-4">
+                        <button class="desktop-btn btn main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>
+                            Book Tickets</button>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <button class="desktop-btn btn main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
-                        Book Tickets</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="venue-item col-lg-7 col-xs-12">
-                    <h3><i class="icon far fa-arrow-alt-circle-right"></i>Funkey Monkey</h3>
-                    <p>tre little jazz bar where it all started way back in 2018.</p>
-                    <p>We run 2 gigs a montr here</p>
-                    <p>limited capacity so get in early to claim your seat.</p>
-                    <button class="btn mobile-view main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>Book Tickets</button>
-                </div>
-                <div class="col-lg-4">
-                    <button class=" desktop-btn btn main-ticket-btn" data-toggle="modal" data-target="#ticket-Modal"><i
-                            class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>Book Tickets</button>
+                <div class="row">
+                    <div class="venue-item col-lg-7 col-xs-12">
+                        <h3><i class="icon far fa-arrow-alt-circle-right"></i>Funkey Monkey</h3>
+                        <p>the little jazz bar where it all started way back in 2018.</p>
+                        <p>We run 2 gigs a month here</p>
+                        <p>limited capacity so get in early to claim your seat.</p>
+                        <button class="btn mobile-view main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>Book Tickets</button>
+                    </div>
+                    <!--ticket button-->
+                    <div class="col-lg-4">
+                        <button class=" desktop-btn btn main-ticket-btn" data-toggle="modal"
+                            data-target="#ticket-Modal"><i class="fas fa-ticket-alt icon fa-rotate"
+                                aria-hidden="true"></i>Book Tickets</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" id="ticket-Modal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body" id="no-tickets">
-                    <div class="trank-you-pop row">
-                        <img class="col-12"
-                            src="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/3/c6/3c6974ae-a597-5b8c-8188-f8cb85b8ad6f/5e73dda726dd5.image.jpg?resize=750%2C320"
-                            width="50" height="210" alt="closed-sign">
-                        <h1 class="col-12">Due to tre currant Covid-19 restrictions we have no shows.</h1>
-                        <p class="col-12">But be sure to follow us on <a href="https://www.facebook.com/InsecureComedy/"
-                                target="_blank">Facebook</a> for updates!</p>
-                        <div class="modal-footer">
-                            <button type="button" class="close" data-dismiss="modal"
-                                aria-label=""><span>×</span></button>
+        <!--pop up modal for tickets-->
+        <div class="modal fade" id="ticket-Modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="no-tickets">
+                        <div class="trank-you-pop row">
+                            <img class="col-12"
+                                src="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/3/c6/3c6974ae-a597-5b8c-8188-f8cb85b8ad6f/5e73dda726dd5.image.jpg?resize=750%2C320"
+                                width="50" height="210" alt="closed-sign">
+                            <h1 class="col-12">Due to the current Covid-19 restrictions we have no shows.</h1>
+                            <p class="col-12">But be sure to follow us on <a
+                                    href="https://www.facebook.com/InsecureComedy/" target="_blank">Facebook</a> for
+                                updates!</p>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-label=""><span>×</span></button>
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
         </div>
-    </div>
-    <div class="container-fluid filler"></div>
+    </section>
+    <!--calender section-->
+    <section>
+        <div class="container-fluid filler"></div>
 
-    <div class="container-fluid row d-none d-lg-block">
-        <div class="col-lg-10 col-xs-12 ">
-            <table class="table table-sm table-dark table-hover calender">
-                <tr>
-                    <th>January</th>
-                    <th>2021</th>
-                </tr>
-            </table>
-            <table class="table text-center table-sm table-dark table-hover">
-                <tr class="display-table">
-                    <td>Monday</td>
-                    <td>Tuesday</td>
-                    <td>Wednesday</td>
-                    <td>trursday</td>
-                    <td>Friday</td>
-                    <td>Saturday</td>
-                    <td>Sunday</td>
-                </tr>
+        <div class="container-fluid row d-none d-lg-block">
+            <div class="col-lg-10 col-xs-12 ">
+                <table class="table table-sm table-dark table-hover calender">
+                    <tr>
+                        <th>January</th>
+                        <th>2021</th>
+                    </tr>
+                </table>
+                <table class="table text-center table-sm table-dark table-hover">
+                    <tr class="display-table">
+                        <td>Monday</td>
+                        <td>Tuesday</td>
+                        <td>Wednesday</td>
+                        <td>trursday</td>
+                        <td>Friday</td>
+                        <td>Saturday</td>
+                        <td>Sunday</td>
+                    </tr>
 
-                <tr class="display-table">
-                    <td class="disabled-date">27</td>
-                    <td class="disabled-date">28</td>
-                    <td class="disabled-date">29</td>
-                    <td class="disabled-date">30</td>
-                    <td class="disabled-date">31</td>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>11</td>
-                    <td>12</td>
-                    <td>13</td>
-                    <td>14</td>
-                    <td>15</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>17</td>
-                    <td>18</td>
-                    <td>19</td>
-                    <td>20</td>
-                    <td>21</td>
-                    <td>22</td>
-                    <td>23</td>
-                </tr>
-                <tr>
-                    <td>24</td>
-                    <td>25</td>
-                    <td>26</td>
-                    <td>27</td>
-                    <td>28</td>
-                    <td>29</td>
-                    <td>30</td>
-                </tr>
-                <tr>
-                    <td>31</td>
-                    <td class="disabled-date">1</td>
-                    <td class="disabled-date">2</td>
-                    <td class="disabled-date">3</td>
-                    <td class="disabled-date">4</td>
-                    <td class="disabled-date">5</td>
-                    <td class="disabled-date">6</td>
-                </tr>
+                    <tr class="display-table">
+                        <td class="disabled-date">27</td>
+                        <td class="disabled-date">28</td>
+                        <td class="disabled-date">29</td>
+                        <td class="disabled-date">30</td>
+                        <td class="disabled-date">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td class="disabled-date">1</td>
+                        <td class="disabled-date">2</td>
+                        <td class="disabled-date">3</td>
+                        <td class="disabled-date">4</td>
+                        <td class="disabled-date">5</td>
+                        <td class="disabled-date">6</td>
+                    </tr>
 
-            </table>
+                </table>
+            </div>
         </div>
-    </div>
+    </section>
+    <footer>
+        <div class="container-fluid filler"></div>
 
-
-    <div class="container-fluid filler"></div>
-
-
-    <div class="id-footer">
-        <ul class="social-area">
-            <li class="social-link-item">
-                <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
-                        aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span></a>
-            </li>
-            <li class="social-link-item">
-                <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
-                        aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span></a>
-            </li>
-            <li class="social-link-item">
-                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span></a>
-            </li>
-            <li class="social-link-item">
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span></a>
-            </li>
-        </ul>
-        <div class="copyright container-fluid">
-            <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
+        <!--social media links section-->
+        <div class="id-footer">
+            <ul class="social-area">
+                <li class="social-link-item">
+                    <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
+                            aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span></a>
+                </li>
+                <li class="social-link-item">
+                    <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
+                            aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span></a>
+                </li>
+                <li class="social-link-item">
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span></a>
+                </li>
+                <li class="social-link-item">
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span></a>
+                </li>
+            </ul>
+            <div class="copyright container-fluid">
+                <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
+            </div>
         </div>
-    </div>
+    </footer>
+    <!--back to top icon script-->
+    <script>
+        $(".animated").addClass("delay-3s");
 
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+
+        $("#toTop").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 800);
+        });
+    </script>
+    <!--toggle collapsible Navbar in mobile view-->
+    <script>
+        function classToggle() {
+            const navs = document.querySelectorAll('.navbar')
+
+            navs.forEach(nav => nav.classList.toggle('.mobile-nav-ToggleShow'));
+        }
+
+        document.querySelector('.mobile-nav-toggle')
+            .addEventListener('click', classToggle);
+    </script>
 
 </body>
 

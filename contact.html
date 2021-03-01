@@ -25,14 +25,35 @@
 </head>
 
 <body>
-    <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
-
-    <nav class="navbar mobile-nav navbar-dark">
-        <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="row container-fluid " id="nav-bar">
+    <header>
+        <!---back-to-top-icon-->
+        <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
+        <!-- mobile view navbar-->
+        <nav class="navbar mobile-nav navbar-dark">
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="row container-fluid " id="nav-bar">
+                    <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="live-shows.html">Live Shows</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" id="active-nav" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--main navbar desktop view-->
+            <ul class="row container-fluid " id="nav-bar-lg">
                 <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
                     <a class="nav-link active" href="index.html">Home</a>
                 </li>
@@ -46,137 +67,135 @@
                     <a class="nav-link active" href="about-us.html">About Us</a>
                 </li>
                 <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" id="active-nav" href="contact.html">Contact</a>
+                    <a class="nav-link active" id="active-nav-lg" href="contact.html">Contact</a>
                 </li>
             </ul>
+        </nav>
+
+
+        <div class="container-fluid filler-light"></div>
+        <div class="container-fluid filler"></div>
+        <!--main heading-->
+        <div class="container-fluid row">
+            <div class="col-12 main-heading">
+                <h2>Want to try our stage?</h2>
+                <h3>If you want to perform <strong>or</strong> Have any questions</h3>
+                <p><i class="icon-gallery far fa-arrow-alt-circle-down"></i> get in touch</p>
+            </div>
         </div>
-        <ul class="row container-fluid " id="nav-bar-lg">
-            <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="live-shows.html">Live Shows</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="gallery.html">Gallery</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="about-us.html">About Us</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" id="active-nav-lg" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+    </header>
+    <section>
+
+        <div class="container-fluid filler"></div>
+        <div class="contact-pg-form row">
+            <div class="col-lg-3 col-xs-1"></div>
+            <!--contact form-->
+            <form class="col-lg-6 col-xs-10 m-auto row">
+
+                <p class="col-12" id="select-title">Nice To Meet You<i class=" icon far fa-arrow-alt-circle-down"></i>
+                </p>
+                <input type="text" name="name" id="fullname" class="input-space col-12" placeholder="Your Name"
+                    required />
+                <input type="email" name="email" id="emailaddress" class="imput-space col-12" placeholder="Your Email"
+                    required />
+                <p class="col-12" id="select-title2">How Can We Help?<i class=" icon far fa-arrow-alt-circle-down"></i>
+                </p>
+                <select class="col-12" id="enquiry" name="enquiry" required>
+                    <option value="">I'd like to perform</option>
+                    <option value="info">I'm looking for more info</option>
+                    <option value="hi">I just wanted to say hi</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea rows="5" name="projectsummary" id="projectsummary" class="col-12 text-area-contact"
+                    placeholder="Whatever you want here" required></textarea>
+                <!--submit button-->
+                <button type="submit" class="btn btn-contact col-12" aria-label="">Send it on its way</button>
+            </form>
+            <!--pop up submit modal-->
+            <div class="modal fade" id="ignismyModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content" id="form-submit">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"
+                                aria-label=""><span>×</span></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <div class="thank-you-pop row">
+                                <img class="col-8" src="assets/images/logo-2-I&D.png" width="50" height="200"
+                                    alt="insecure-logo">
+                                <h1 class="col-4">Thank You!</h1>
+                                <p class="col-12" id="modal-p">Your query is on the digital highway!</p>
 
 
-    <div class="container-fluid filler-light"></div>
-    <div class="container-fluid filler"></div>
-    <div class="container-fluid row">
-        <div class="col-12 main-heading">
-            <h2>Want to try our stage?</h2>
-            <h3>If you want to perform <strong>or</strong> Have any questions</h3>
-            <p><i class="icon-gallery far fa-arrow-alt-circle-down"></i> get in touch</p>
-        </div>
-    </div>
-
-
-    <div class="container-fluid filler"></div>
-    <div class="contact-pg-form row">
-        <div class="col-lg-3 col-xs-1"></div>
-        <form class="col-lg-6 col-xs-10 m-auto row">
-
-            <p class="col-12" id="select-title">Nice To Meet You<i class=" icon far fa-arrow-alt-circle-down"></i></p>
-            <input type="text" name="name" id="fullname" class="input-space col-12" placeholder="Your Name" required />
-            <input type="email" name="email" id="emailaddress" class="imput-space col-12" placeholder="Your Email"
-                required />
-            <p class="col-12" id="select-title2">How Can We Help?<i class=" icon far fa-arrow-alt-circle-down"></i></p>
-            <select class="col-12" id="enquiry" name="enquiry" required>
-                <option value="">I'd like to perform</option>
-                <option value="info">I'm looking for more info</option>
-                <option value="hi">I just wanted to say hi</option>
-                <option value="other">Other</option>
-            </select>
-            <textarea rows="5" name="projectsummary" id="projectsummary" class="col-12 text-area-contact"
-                placeholder="Whatever you want here" required></textarea>
-
-            <button type="submit" class="btn btn-contact col-12" aria-label="">Send it on its way</button>
-        </form>
-        <div class="modal fade" id="ignismyModal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content" id="form-submit">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
-                    </div>
-
-                    <div class="modal-body">
-
-                        <div class="thank-you-pop row">
-                            <img class="col-8" src="assets/images/logo-2-I&D.png" width="50" height="200"
-                                alt="insecure-logo">
-                            <h1 class="col-4">Thank You!</h1>
-                            <p class="col-12" id="modal-p">Your query is on the digital highway!</p>
-
+                            </div>
 
                         </div>
 
                     </div>
-
                 </div>
             </div>
+            <div class="col-lg-3 col-xs-1"></div>
         </div>
-        <div class="col-lg-3 col-xs-1"></div>
-    </div>
-    <div class="container-fluid filler"></div>
-    <div class="container-fluid row">
-        <div class="col-lg-1 col-xs-12"></div>
-        <div class=" col-lg-7 col-xs-12 go-map"><iframe id="gmap"
-                src="https://maps.google.com/maps?q=%20Rue%20Archim%C3%A8de%2057,%201000%20Brussels,%20Belgium&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                ></iframe></div>
+    </section>
+    <section>
 
-        <div class="col-lg-4 col-xs-12 contact-details">
-            <p class="mob-icon">
-                <i class="icon far fa-arrow-alt-circle-up"></i> Find us Here
-            </p>
-            <p class="desk-icon">
-                <i class="icon far fa-arrow-alt-circle-left"></i> Find us Here
-            </p>
-            <p> Email: insecurecomedy@gmail </p>
-            <p>Address: Rue Archimède 57,
-                1000 Bruxelles,
-                Belgium </p>
-            <p> Phone: 00033215555 </p>
+        <div class="container-fluid filler"></div>
+        <div class="container-fluid row">
+            <div class="col-lg-1 col-xs-12"></div>
+            <!--google map location-->
+            <div class=" col-lg-7 col-xs-12 go-map"><iframe id="gmap"
+                    src="https://maps.google.com/maps?q=%20Rue%20Archim%C3%A8de%2057,%201000%20Brussels,%20Belgium&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+
+            <div class="col-lg-4 col-xs-12 contact-details">
+                <p class="mob-icon">
+                    <i class="icon far fa-arrow-alt-circle-up"></i> Find us Here
+                </p>
+                <p class="desk-icon">
+                    <i class="icon far fa-arrow-alt-circle-left"></i> Find us Here
+                </p>
+                <!--contact information-->
+                <p> Email: insecurecomedy@gmail </p>
+                <p>Address: Rue Archimède 57,
+                    1000 Bruxelles,
+                    Belgium </p>
+                <p> Phone: 00033215555 </p>
 
 
+            </div>
         </div>
-    </div>
-    <div class="container-fluid filler-light"></div>
+        <div class="container-fluid filler-light"></div>
 
-
-
-    <ul class="social-area">
-        <li class="social-link-item">
-            <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
-                    aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
-                    aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span></a>
-        </li>
-    </ul>
-    <div class="copyright container-fluid">
-        <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
-    </div>
+    </section>
+    <footer>
+        <!--social media links section-->
+        <ul class="social-area">
+            <li class="social-link-item">
+                <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
+                        aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
+                        aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">Youtube</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span></a>
+            </li>
+        </ul>
+        <div class="copyright container-fluid">
+            <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
+        </div>
+    </footer>
+    <!--back to top icon script-->
     <script>
         $('form').submit(function (e) {
             e.preventDefault();

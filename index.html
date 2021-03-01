@@ -25,16 +25,37 @@
 </head>
 
 <body>
-    <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
-
-    <nav class="navbar mobile-nav navbar-dark">
-        <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="row container-fluid " id="nav-bar">
+    <header>
+        <!---back-to-top-icon-->
+        <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
+        <!-- mobile view navbar-->
+        <nav class="navbar mobile-nav navbar-dark">
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="row container-fluid " id="nav-bar">
+                    <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" id="active-nav" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="live-shows.html">Live Shows</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--main navbar desktop view-->
+            <ul class="row container-fluid " id="nav-bar-lg">
                 <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                    <a class="nav-link active" id="active-nav" href="index.html">Home</a>
+                    <a class="nav-link active" id="active-nav-lg" href="index.html">Home</a>
                 </li>
                 <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
                     <a class="nav-link active" href="live-shows.html">Live Shows</a>
@@ -49,123 +70,118 @@
                     <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
             </ul>
+        </nav>
+        <div class="container-fluid filler-light"></div>
+        <div class="container-fluid filler"></div>
+        <!--main heading-->
+        <div class="container-fluid row">
+            <div id="anima" class="col-12 main-heading">
+                <h2>Insecure & Dangereux</h2>
+                <h3>Your Live Comedy fix in Brussels since 2018</h3>
+            </div>
+            <!--ticket button-->
+            <button class="btn main-ticket-btn" data-target="#ticket-Modal" data-toggle="modal"><i
+                    class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
+                Book Tickets</button>
         </div>
-        <ul class="row container-fluid " id="nav-bar-lg">
-            <li class=" nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" id="active-nav-lg" href="index.html">Home</a>
-            </li>
-            <li class="nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="live-shows.html">Live Shows</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="gallery.html">Gallery</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="about-us.html">About Us</a>
-            </li>
-            <li class="  nav-item item-main-nav col-xs-12 col-md-4 col-lg-2">
-                <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="container-fluid filler-light"></div>
-    <div class="container-fluid filler"></div>
-    <div class="container-fluid row">
-        <div id="anima" class="col-12 main-heading">
-            <h2>Insecure & Dangereux</h2>
-            <h3>Your Live Comedy fix in Brussels since 2018</h3>
-        </div>
-       <button class="btn main-ticket-btn" data-target="#ticket-Modal" data-toggle="modal"><i class="fas fa-ticket-alt icon fa-rotate" aria-hidden="true"></i>
-                        Book Tickets</button>
-    </div>
-    <div class="modal fade" id="ticket-Modal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body" id="no-tickets">
-                    <div class="thank-you-pop row">
-                        <img class="col-12"
-                            src="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/3/c6/3c6974ae-a597-5b8c-8188-f8cb85b8ad6f/5e73dda726dd5.image.jpg?resize=750%2C320"
-                             width="50" height="210" alt="closed-sign">
-                        <h1 class="col-12">Due to the currant Covid-19 restrictions we have no shows.</h1>
-                        <p class="col-12">But be sure to follow us on <a href="https://www.facebook.com/InsecureComedy/" target="_blank">Facebook</a> for updates!</p>
-                        <div class="modal-footer">
-                            <button type="button" class="close" data-dismiss="modal"
-                                aria-label=""><span>×</span></button>
+
+        <!--pop up modal for tickets-->
+        <div class="modal fade" id="ticket-Modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="no-tickets">
+                        <div class="thank-you-pop row">
+                            <img class="col-12"
+                                src="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/3/c6/3c6974ae-a597-5b8c-8188-f8cb85b8ad6f/5e73dda726dd5.image.jpg?resize=750%2C320"
+                                width="50" height="210" alt="closed-sign">
+                            <h1 class="col-12">Due to the currant Covid-19 restrictions we have no shows.</h1>
+                            <p class="col-12">But be sure to follow us on <a
+                                    href="https://www.facebook.com/InsecureComedy/" target="_blank">Facebook</a> for
+                                updates!</p>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal"
+                                    aria-label=""><span>×</span></button>
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid filler-light"></div>
-    <div class="container-fluid filler"></div>
-    <div class="row fb-review">
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-    </div>
-
-
-
-
-    <div class="container-fluid row">
-        <div class="container-fluid col-12 heading">
-
-            <h1>LATEST NEWS</h1>
-
-            <h2> INSECURE & DANGEREUX - UPDATE 2021</h2>
-
+    </header>
+    <section>
+        <div class="container-fluid filler-light"></div>
+        <div class="container-fluid filler"></div>
+        <!--future facebook review section-->
+        <div class="row fb-review">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
         </div>
-        <div class="container-fluid col-12 news">
-            <p>The show must go on! Insecure and Dangereux continues in January, with a smaller capacity and our
-                anti-Covid
-                procedures. We will usually perform two shows on a night to accommodate more audience. Most shows are
-                now 75 minutes with no intermission.
 
-                Bad news: Due to Corona restrictions, our bar is temporarily closed.
+    </section>
+    <section>
+        <!--news section-->
+        <div class="container-fluid row">
+            <div class="container-fluid col-12 heading">
 
-                Good news: You are allowed to bring in (store bought) drinks! We will provide water, glasses, ice, and
-                coolers and will also clean things up afterwards. This is as close as you will get to a bar over the
-                next few weeks! You are allowed to enter our venue until 20:00 with your drinks.
+                <h1>LATEST NEWS</h1>
 
-                We are charging a ‘good news surcharge’ of five euros per person to help offset the losses of lower
-                capacities during these restrictions. Thank you in advance for your support of the arts.
+                <h2> INSECURE & DANGEREUX - UPDATE 2021</h2>
 
-                Book with confidence! If you ever book a show that has to be cancelled, we will always reluctantly
-                refund your money with a forced smile.</p>
+            </div>
+            <div class="container-fluid col-12 news">
+                <p>The show must go on! Insecure and Dangereux continues in January, with a smaller capacity and our
+                    anti-Covid
+                    procedures. We will usually perform two shows on a night to accommodate more audience. Most shows
+                    are
+                    now 75 minutes with no intermission.
+
+                    Bad news: Due to Corona restrictions, our bar is temporarily closed.
+
+                    Good news: You are allowed to bring in (store bought) drinks! We will provide water, glasses, ice,
+                    and
+                    coolers and will also clean things up afterwards. This is as close as you will get to a bar over the
+                    next few weeks! You are allowed to enter our venue until 20:00 with your drinks.
+
+                    We are charging a ‘good news surcharge’ of five euros per person to help offset the losses of lower
+                    capacities during these restrictions. Thank you in advance for your support of the arts.
+
+                    Book with confidence! If you ever book a show that has to be cancelled, we will always reluctantly
+                    refund your money with a forced smile.</p>
+            </div>
         </div>
-    </div>
-    <div class="container-fluid row"></div>
-
-
-
-    <ul class="social-area">
-        <li class="social-link-item">
-            <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
-                    aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
-                    aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span></a>
-        </li>
-        <li class="social-link-item">
-            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span></a>
-        </li>
-    </ul>
-    <div class="copyright container-fluid">
-        <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
-    </div>
+        <div class="container-fluid row"></div>
+    </section>
+    <footer>
+        <!--social media links section-->
+        <ul class="social-area">
+            <li class="social-link-item">
+                <a href="https://www.facebook.com/InsecureComedy/" target="_blank"><i class="fab fa-facebook-square"
+                        aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.instagram.com/insecure_dangereux/" target="_blank"><i class="fab fa-instagram"
+                        aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">Youtube</span></a>
+            </li>
+            <li class="social-link-item">
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span></a>
+            </li>
+        </ul>
+        <div class="copyright container-fluid">
+            <p>&copy; 2021 Insecure & Dangereux: Comedy Nights</p>
+        </div>
+    </footer>
+    <!--back to top icon script-->
     <script>
         $(".animated").addClass("delay-3s");
 
@@ -180,16 +196,6 @@
         $("#toTop").click(function () {
             $("html, body").animate({ scrollTop: 0 }, 800);
         });
-    </script>
-    <script>
-        function classToggle() {
-            const navs = document.querySelectorAll('.navbar')
-
-            navs.forEach(nav => nav.classList.toggle('.mobile-nav-ToggleShow'));
-        }
-
-        document.querySelector('.mobile-nav-toggle')
-            .addEventListener('click', classToggle);
     </script>
 </body>
 

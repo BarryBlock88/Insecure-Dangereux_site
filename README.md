@@ -41,7 +41,7 @@ The site is targeted at current fans of the Insecure & Dangereux, comedy-lovers 
 
 “As a [persona], I [want to], [so that].” 
 ### User Stories
-- As a user discovering the Website for the first time. I want to be able to have a sense of the energy behind the show; I want to see great photos from past shows and watch videos to be inspired to attend a show. I want to book tickets easily so I can go to a show when I feel like it.
+- As a user discovering the Website for the first time. I want to be able to have a sense of the energy behind the show; I want to see great photos from past shows to be inspired to attend a show. I want to book tickets easily so I can go to a show when I feel like it.
 - As a potential performer, I want to easily contact the Club through there Website, social media links or email. I want them to be easy to find and obvious to the eye. So that I can perform in a future show.
 - As a fan of Insecure & Dangereux's live shows, I want to keep up to date on what shows are happening and how venue with user-friendly calendar of events colour coded by the venue. I want to be able to book tickets easily. So that I never miss a show.
 - As a mobile user, I want to be able to scroll through the content easily, I want it to fit my phones screen size to allow me to read it easily and to be able to return to the top of the page quickly. So that is a pleasantly intuitive experience and will use again.
@@ -124,6 +124,7 @@ This could be done after obtaining an HTTPS certificate.
 8. GitHub (https://github.com/) is used to store all the code for this project after pushing from Gitpod.
 9. GIMP (https://www.gimp.org/fr/) was used to resizing images and editing photos for the Website.
 10. Balsamiq (https://balsamiq.com/) was used to create the wireframes during the design process.
+11. Table generator(https://www.tablesgenerator.com/markdown_tables) for the table in the README
 
 ### Testing
 In the project, no syntax errors were detected, as validated by -
@@ -134,12 +135,55 @@ W3C CSS Validator
 
 
 ## Testing
-
+### User Story testing
+|  				 Test Case 			 | As a user I want to see great photos from past shows to be inspired to attend a show.                                                |  				 Result 			 |
+|:------------:|--------------------------------------------------------------------------------------------------------------------------------------|:---------:|
+|  				 1 			         | I want to be able to book tickets easily.                                                                                            |  				 Pass 			   |
+|  				 2 			         | I want to easily contact the Club through there Website, social media links or email.                                                |  				 Pass 			   |
+|  				 3 			         | I want to keep up to date on what shows are happening and how venue with user-friendly calendar of events colour coded by the venue. |  				 Pass 			   |
+|  				 4 			         | I want to be able to scroll through the content easily.                                                                              |  				 Pass 			   |
+|  				 5 			         | I want it to fit my phones screen size to allow me to read it easily and to be able to return to the top of the page quickly.        |  				 Pass 			   |
+|  				 6 			         | I want to see an engaging, colourful website with images from past shows and info on future ones.                                    |  				 Pass 			   |
+|  				 7 			         | I want to Navbar to be responsive when I hover my mouse over it, and I want to know what page is active.                             |  				 Pass 			   |
+|  				 8 			         | I want to engage with new potential audience members through a professional-looking and informative Website.                         |  				 Pass 			   |
+|  				 9 			         | I want potential performers to easily contact us about future shows.                                                                 |  				 Pass 			   |
+|  				 10 			        | I want to make it easy to inform our fans of upcoming shows and events.                                                              |  				 Pass 			   |
+|  				 11 			        | I want to make it a responsive, engaging experience on mobile and desktop devices.                                                   |  				 Pass 			   |
 
 ### General
-Testing of the site was done to ensure that all pages were linking correctly. 
-The Navbar was tested to collapse at the correct breakpoint. 
-All buttons and nav links were checked for correct website addresses.
+###Manual Testing
+
+|  				 Test Case 			 |                                                           				 Description of feature 			                                                          |  				 Result 			 |
+|:------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
+|  				 1 			         |  				 On each page, user should see a navbar, with 5 				selection text buttons 			                                                                    |  				 Pass 			   |
+|  				 2 			         |  				 On hover over active navbar buttons, the text turns 				from red to yellow 			                                                                   |  				 Pass 			   |
+|  				 3 			         |  				 Clicking on the navbar Button brings you to a new 				page 			                                                                                   |  				 Pass 			   |
+|  				 4 			         |  				 The page in smaller screens, the navbar collapses 				to display a hamburger toggler 			                                                         |  				 Pass 			   |
+|  				 5 			         |  				 Selections in collapsed toggler line up in the 				center of the page 			                                                                        |  				 Pass 			   |
+|  				 6 			         |  				 One navbar button will always be highlighted to 				show which page in active 			                                                                |  				 Pass 			   |
+|  				 7 			         |  				 When scrolling down the Back to top icon appears on 				each page 			                                                                            |  				 Pass 			   |
+|  				 8 			         |  				 The Back to top icon when click bring the user to 				the top of the page and is then hidden 			                                                 |  				 Pass 			   |
+|  				 9 			         |  				 Clicking on the Home in the navbar will bring you 				back to the Home page 			                                                                  |  				 Pass 			   |
+|  				 10 			        |  				 Clicking on Live shows in the navbar will bring you 				to a page on upcoming shows and venue information  				 			                                  |  				 Pass 			   |
+|  				 11 			        |  				 Clicking on Gallery in the navbar will bring you to 				the page containing photos 			                                                           |  				 Pass 			   |
+|  				 12 			        |  				 Clicking on Contact in the navbar will bring you to 				the page containing a contact form, address, email and location 				on Google Maps 			       |  				 Pass 			   |
+|  				 13 			        |  				 Clicking on the About Us in the navbar will bring 				you to a age with information about the Comedy club and there 				history 			                  |  				 Pass 			   |
+|  				 14 			        |  				 Text in jumbotron of The Team and Contact pages 				will remain in the center of the page regardless of page size 			                            |  				 Pass 			   |
+|  				 15 			        |  				 Text in jumbotron of Home page will remain aligned 				to the left of the page regardless of page size 			                                       |  				 Pass 			   |
+|  				 16 			        |  				 Jumbotron images will fill entire width of page 				regardless of page size 			                                                                  |  				 Pass 			   |
+|  				 17 			        |  				 On smaller screens text on each page will always 				align to the center of the page  				 			                                                       |  				 Pass 			   |
+|  				 18 			        |  				 Deployed bootstrap card components will stack-up on 				each other when page is in mobile mode or when window is 				minimized on laptop/desktop 			 |  				 Pass 			   |
+|  				 19 			        |  				 Calender on live show page will not be displayed 				when accessed in mobile mode or when window is minimized  				 			                              |  				 Pass 			   |
+|  				 20 			        |  				 Form on Contact page will not be submitted without 				all sections being filled out 			                                                         |  				 Pass 			   |
+|  				  				 	    |                Submitting the form correcty will prompt a thank 				you Modal stating it has been submitted successfully 			                                    |  				 Pass 			   |
+|  				 21 			        |  				 Clicking on the Book Tickets button will prompt a 				Modal conveying updated information 			                                                    |  				 Pass 			   |
+|  				 22 			        |  				 On hover over Book Tickets button, they turn from 				yellow to Red on each page 			                                                             |  				 Pass 			   |
+|  				 23 			        |  				 Footer section will always remain at the bottom 				most section of the page 			                                                                 |  				 Pass 			   |
+|  				 24 			        |  				 Icons and text in the footer section of the page 				will be center aligned on all size screens 			                                              |  				 Pass 			   |
+|  				 25 			        |  				 On hover over social media Icons in the footer, 				they turn from red to black 			                                                              |  				 Pass 			   |
+|  				 26 			        |  				 Icons when clicked on open links in a new tab to 				there respective Social media sites 			                                                     |  				 Pass 			   |
+|  				 27 			        |  				 Main heading text on each page animates when page 				is loaded 			                                                                              |  				 Pass 			   |
+
 #### Responsiveness
 The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8, Samsung A1.
 #### Browsers
@@ -169,7 +213,7 @@ The site was developed in GitPod and pushed to the following remote GitHub repos
 - Go to settings of that repository (the far right tab)
 - Scroll down to until you see GitHub Pages section. 
 - Select as a source master branch, keep folder as Root and save.
-- Your site will be active in 3 to 10 minutes.
+- Your site will live in 3 to 10 minutes.
 ## Credits
 ### Content
 - About us section is adapted from an article about Insecure & Dangereux from Brussels Times
