@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -30,7 +30,7 @@
         <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div>
         <!-- mobile view navbar-->
         <nav class="navbar mobile-nav navbar-dark">
-            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -95,21 +95,21 @@
                 <p class="col-12" id="select-title">Nice To Meet You<i class=" icon far fa-arrow-alt-circle-down"></i>
                 </p>
                 <input type="text" name="name" id="fullname" class="input-space col-12" placeholder="Your Name"
-                    required />
+                    required aria-label="name" />
                 <input type="email" name="email" id="emailaddress" class="imput-space col-12" placeholder="Your Email"
-                    required />
+                    required aria-label="email"/>
                 <p class="col-12" id="select-title2">How Can We Help?<i class=" icon far fa-arrow-alt-circle-down"></i>
                 </p>
-                <select class="col-12" id="enquiry" name="enquiry" required>
+                <select class="col-12" id="enquiry" name="enquiry" aria-label="select" required>
                     <option value="">I'd like to perform</option>
                     <option value="info">I'm looking for more info</option>
                     <option value="hi">I just wanted to say hi</option>
                     <option value="other">Other</option>
                 </select>
                 <textarea rows="5" name="projectsummary" id="projectsummary" class="col-12 text-area-contact"
-                    placeholder="Whatever you want here" required></textarea>
+                    placeholder="Whatever you want here" required aria-label="text-area"></textarea>
                 <!--submit button-->
-                <button type="submit" class="btn btn-contact col-12" aria-label="">Send it on its way</button>
+                <button type="submit" class="btn btn-contact col-12" aria-label="submit">Send it on its way</button>
             </form>
             <!--pop up submit modal-->
             <div class="modal fade" id="ignismyModal" role="dialog">
@@ -145,7 +145,7 @@
         <div class="container-fluid row">
             <div class="col-lg-1 col-xs-12"></div>
             <!--google map location-->
-            <div class=" col-lg-7 col-xs-12 go-map"><iframe id="gmap"
+            <div class=" col-lg-7 col-xs-12 go-map"><iframe aria-label="googlemap" id="gmap"
                     src="https://maps.google.com/maps?q=%20Rue%20Archim%C3%A8de%2057,%201000%20Brussels,%20Belgium&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
             </div>
 
