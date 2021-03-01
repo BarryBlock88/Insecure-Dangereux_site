@@ -185,7 +185,41 @@ W3C CSS Validator
 |  				 27 			        |  				 Main heading text on each page animates when page 				is loaded 			                                                                              |  				 Pass 			   |
 
 #### Responsiveness
-The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8, Samsung A1.
+The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8, Samsung A1 in real life.
+
+##### Using inspect elements on firefox i checked responsiveness for the following -
+###### phones
+Galaxy Note 3Android 4.3
+Galaxy Note 9Android 7.0
+Galaxy S5Android 5.0
+Galaxy S9/S9+Android 7.0
+iPhone 5/SEiOS 10.3.1
+iPhone 6/7/8iOS 11
+iPhone 6/7/8 PlusiOS 11
+iPhone X/XSiOS 12
+iPhone XRiOS 12
+iPhone XS MaxiOS 12
+LG Optimus L70Android 4.4.2
+Microsoft Lumia 550Windows Phone 10.0
+Microsoft Lumia 950Windows Phone 10.0
+Nexus 5XAndroid 8.0
+Nexus 6PAndroid 8.0
+Nokia 8110 4G
+Pixel 2Android 8.0
+Pixel 2 XLAndroid 8.0
+##### tablets
+iPad
+iPad Mini
+iPad Pro (10.5-inch)
+iPad Pro (12.9-inch)
+Kindle Fire HDXLinux
+Nexus 10Android 6.0.1
+Nexus 7Android 6.0.1
+##### laptops
+Laptop with HiDPI screen
+Laptop with MDPI screen
+Laptop with touch
+
 #### Browsers
 The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari browsers. 
 #### Issues Found
