@@ -228,15 +228,18 @@ img.caro-img{
     color: #000;
     font-size: 30px;
     font-weight: 800;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
+    margin-bottom: 10px;
+   
 }
 
 
 .main-ticket-btn:hover{
     background-color: #da1d0d;
     border: none;
+    margin-top: 15px;
 }
 
 
@@ -318,7 +321,7 @@ height: 250px;
 .contact-pg-form input:focus,
 .contact-pg-form textarea:focus,
 .contact-pg-form select:focus{
-    border: 1px solid #fffb0b;
+    border: 1px solid #faef53;
 }
 
 .col-12 {
@@ -519,7 +522,7 @@ li{
 .navbar-dark .navbar-toggler{
     font-size: 35px;
     text-align: right;
-	color: rgba(255,255,0, 1);
+	color: #faef53;
     border-color: rgba(255, 255, 0, 0);
 }
 .btn.focus, .btn:focus {
@@ -583,12 +586,18 @@ display: none;
 
 @media(max-width: 576px),(max-width: 767px){
 
+/*_____ticket buttons___*/
 .desktop-btn{
   display: none;
 }
 
+.mobile-view.main-ticket-btn{
+margin-top: 20px;
+}
+
 .mobile-view.main-ticket-btn:hover{
     background-color: #da1d0d;
+    margin-top: 7px;
     border: none;
 }
 
@@ -623,6 +632,8 @@ display: none;
 	padding-right: 2.5px;
 	padding-left: 2.5px; 
 }
+
+/*____calender_____*/
 table tbody tr{
     padding: 2px;
     margin: 0%;
@@ -631,6 +642,9 @@ table tbody tr{
 table tbody{
     font-size: 9px;
 }    
+
+
+/*____Navbar_____*/
 
 #nav-bar-lg.container-fluid.row{
     display: none;
@@ -728,7 +742,7 @@ font-size: 20px;
 text-align: center;
 
 }
-
+/*____ contact infor section___*/
 .contact-details{
 font-size: 25px;
 text-align: center;
