@@ -128,11 +128,17 @@ This could be done after obtaining an HTTPS certificate.
 
 ### Testing
 In the project, no syntax errors were detected, as validated by -
-W3C Markup Validator 
-![Image-html](assets/wireframes_milestone_one/Screenshot_2021-01-14 Showing results for contents of text-input area - Nu Html Checker.png)
-W3C CSS Validator 
-![Image-css](assets/wireframes_milestone_one/Screenshot_2021-01-14 W3C CSS Validator results for TextArea (CSS level 3 + SVG).png)
+#### W3C Markup Validator - 
 
+1. [Image-html-index](assets/testing_images/1_Screenshot_2021-03-01.png)
+2. [Image-html-liveshows](assets/testing_images/2_Screenshot_2021-03-01.png)
+3. [Image-html-gallery](assets/testing_images/3_Screenshot_2021-03-01.png)
+4. [Image-html-aboutus](assets/testing_images/4_Screenshot_2021-03-01.png)
+5. [Image-htm-contact](assets/testing_images/5_Screenshot_2021-03-01.png)
+#### W3C CSS Validator -
+- [Image-css](assets/testing_images/Screenshot_2021-03-01_W3C_CSS_Validator.png)
+#### Lighthouse report -
+- [Image-lighthouse-report-screenshot](assets/testing_images/Screenshot_2021-03-01_Lighthouse_Report_Viewer.png)
 
 ## Testing
 ### User Story testing
@@ -184,11 +190,11 @@ W3C CSS Validator
 |  				 26 			        |  				 Icons when clicked on open links in a new tab to 				there respective Social media sites 			                                                     |  				 Pass 			   |
 |  				 27 			        |  				 Main heading text on each page animates when page 				is loaded 			                                                                              |  				 Pass 			   |
 
-#### Responsiveness
+## Responsiveness -
 The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8, Samsung A1 in real life.
 
-##### Using inspect elements on firefox i checked responsiveness for the following -
-###### phones
+#### Using inspect elements on firefox i checked responsiveness for the following 
+#### Phones -
 Galaxy Note 3Android 4.3
 Galaxy Note 9Android 7.0
 Galaxy S5Android 5.0
@@ -207,7 +213,7 @@ Nexus 6PAndroid 8.0
 Nokia 8110 4G
 Pixel 2Android 8.0
 Pixel 2 XLAndroid 8.0
-##### tablets
+#### Tablets -
 iPad
 iPad Mini
 iPad Pro (10.5-inch)
@@ -215,17 +221,17 @@ iPad Pro (12.9-inch)
 Kindle Fire HDXLinux
 Nexus 10Android 6.0.1
 Nexus 7Android 6.0.1
-##### laptops
+#### Laptops -
 Laptop with HiDPI screen
 Laptop with MDPI screen
 Laptop with touch
 
-#### Browsers
+### Browsers 
 The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari browsers. 
-#### Issues Found
+#### Issues Found -
 - Had difficuly styling the Table (calendar) with CSS for smaller screens, so decided to leave it out for screens under desktop/laptop size.
 - Bootstrap with customisation was a challenge, but it worked out after some intensive research.
-###### bugs
+#### Bugs -
 - The text on the primary nav in the mobile dropdown view did not show on some devices, but it became visible after hovering. 
 
 
