@@ -8,7 +8,7 @@
 -To create a frontend user-centric website with HTML5, CSS3 with the possible addition of frameworks such as Bootstrap.-
 
 
-## Project Outline:
+# Project Outline:
 #### Insecure & Dangereux: Comedy Nights
 
 - Insecure and Dangereux: Comedy Nights is a Comedy club specialising in English language Live stand up and improv events, throughout venues in Brussels, Belgium.
@@ -34,7 +34,7 @@
 
 
 
-## *UX*
+# *UX*
 #### Who is the target audience of this site?
 
 The site is targeted at current fans of the Insecure & Dangereux, comedy-lovers looking to discover live shows in there city and those interested in performing at one of the comedy open mics. I imagine users visiting the site through there phone and laptop primarily.
@@ -76,7 +76,7 @@ For the colour palette, I chose three colours derived from the companies' main l
 ### Typography
 I chose Montserrat and Montserrat Subrayada as I liked the many font-weight options these allowed and because they are clear professional-looking fonts with a little character. The fonts were imported from Google Fonts.
 
-## *Features*
+# *Features*
 
 - I want the Website to be original, engaging, simple, direct and easy to use. The user mustn't be overwhelmed with information, so I make a goal to have just the right amount of pages with just the right amount of information on each with the option to contact the website client for questions or more information if they wish.
 
@@ -86,7 +86,7 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
 
 - The background image design, logo design, tab icon were all designed by Barry Cullen using the open-source software GIMP.
 
-### Current Features
+### *Current Features*
 ##### Website allows the user to - 
 
 - *Home page - has recent news and title text and book tickets option which continues on each page.
@@ -96,7 +96,7 @@ I chose Montserrat and Montserrat Subrayada as I liked the many font-weight opti
 - *Contact form* – so users of the Website can ask questions or submit enquiries, 
     easily facilitated by filling out a minimalistic user-friendly contact form.
 
-### Additional features to add
+### *Additional features to add*
 To integrate Eventbrite's embedded checkout into the page itself rather than link to their site, I believe interrupts my site's user experience.
 This could be done after obtaining an HTTPS certificate.
 - A form so comedians can become a member of our community.
@@ -106,7 +106,7 @@ This could be done after obtaining an HTTPS certificate.
 - I would like to include videos and photos using bootstrap carousel in future versions.
 
 
-### Technologies Used
+## ***Technologies Used***
 #### Languages Used
 1. HTML5 
 2. CSS3
@@ -126,7 +126,9 @@ This could be done after obtaining an HTTPS certificate.
 10. Balsamiq (https://balsamiq.com/) was used to create the wireframes during the design process.
 11. Table generator(https://www.tablesgenerator.com/markdown_tables) for the table in the README
 
-### Testing
+# *Testing*
+
+### ***Code validation***
 In the project, no syntax errors were detected, as validated by -
 #### W3C Markup Validator - 
 
@@ -140,24 +142,24 @@ In the project, no syntax errors were detected, as validated by -
 #### Lighthouse report -
 - [Image-lighthouse-report-screenshot](assets/testing_images/Screenshot_2021-03-01_Lighthouse_Report_Viewer.png)
 
-## Testing
-### User Story testing
-|  				 Test Case 			 | As a user I want to see great photos from past shows to be inspired to attend a show.                                                |  				 Result 			 |
-|:------------:|--------------------------------------------------------------------------------------------------------------------------------------|:---------:|
-|  				 1 			         | I want to be able to book tickets easily.                                                                                            |  				 Pass 			   |
-|  				 2 			         | I want to easily contact the Club through there Website, social media links or email.                                                |  				 Pass 			   |
-|  				 3 			         | I want to keep up to date on what shows are happening and how venue with user-friendly calendar of events colour coded by the venue. |  				 Pass 			   |
-|  				 4 			         | I want to be able to scroll through the content easily.                                                                              |  				 Pass 			   |
-|  				 5 			         | I want it to fit my phones screen size to allow me to read it easily and to be able to return to the top of the page quickly.        |  				 Pass 			   |
-|  				 6 			         | I want to see an engaging, colourful website with images from past shows and info on future ones.                                    |  				 Pass 			   |
-|  				 7 			         | I want to Navbar to be responsive when I hover my mouse over it, and I want to know what page is active.                             |  				 Pass 			   |
-|  				 8 			         | I want to engage with new potential audience members through a professional-looking and informative Website.                         |  				 Pass 			   |
-|  				 9 			         | I want potential performers to easily contact us about future shows.                                                                 |  				 Pass 			   |
-|  				 10 			        | I want to make it easy to inform our fans of upcoming shows and events.                                                              |  				 Pass 			   |
-|  				 11 			        | I want to make it a responsive, engaging experience on mobile and desktop devices.                                                   |  				 Pass 			   |
+### *User story Testing*
 
-### General
-###Manual Testing
+|  			  			Number 		 |  			 User 			Story 		                                                                                                                            |  			  			Validation 		                                                                                                                                          |  			  			Result  			 		       |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+|  			  			1  			 		    |  			  			As a user I want to see great photos from past shows 			to be inspired to attend a show. 		                                                |  			 Confirmed 			through the images present on aboutus.html and gallery.html page 		                                                                           |  			  			Pass 		           |
+|  			  			2  			 		    |  			  			I want to be able to book tickets easily. 		                                                                                            |  			  			Functionality 			to book a ticket is confirmed with book tickets button on multiple 			pages. 		                                                             |  			  			Pass  			 		         |
+|  			  			3  			 		    |  			  			I want to easily contact the Club through there 			Website, social media links or email. 		                                                |  			 Confirmed 			through the active social media icons in the footer on each page and the contact form on  			Contact.html 		                                                                 |  			  			Pass  			 		         |
+|  			  			4  			 		    |  			  			I want to keep up to date on what shows are happening 			and how venue with user-friendly calendar of events colour coded 			by the venue. 		 |  			 Partially 			confirmed through the live-shows.html but additional feature still 			to be added to the calender. 		                                            |  			  			Partial Pass  			 		 |
+|  			  			5  			 		    |  			  			I want to be able to scroll through the content 			easily. 		                                                                              |  			  			Functionality 			of back to top button confirmed with each page allowing easier 			scrolling. 		                                                             |  			  			Pass  			 		         |
+|  			  			6  			 		    |  			  			I want it to fit my phones screen size to allow me to 			read it easily and to be able to return to the top of the page 			quickly. 		        |  			  			Resposiveness 			functionality tested throughly on various phone screens, along 			with the collapsable calender in mobile view allow for better UX. 		      |  			  			Pass  			 		         |
+|  			  			7  			 		    |  			  			I want to see an engaging, colourful website with 			images from past shows and info on future ones. 		                                    |  			 Confirmed 			through the live-shows.html and the gallery.html pages aswell as 			the colour theme chosen. 		                                                  |  			  			Pass  			 		         |
+|  			  			8  			 		    |  			  			I want to Navbar to be responsive when I hover my 			mouse over it, and I want to know what page is active. 		                             |  			 Cofirmed, 			when the mouse is hovered over the color changes via css to 			highlight which page in active. 		                                                |  			  			Pass  			 		         |
+|  			  			9  			 		    |  			  			I want to engage with new potential audience members 			through a professional-looking and informative Website. 		                         |  			 Confirmed 			as content reflects the purpose of the site,with mulitaple pages 			clearly defined in the navbar, same color theme and font used 			throughout. 		 |  			  			Pass  			 		         |
+|  			  			10  			 		   |  			  			I want potential performers to easily contact us 			about future shows. 		                                                                 |  			 Confirmed 			with the contact form on Contact.html 		                                                                                                      |  			  			Pass  			 		         |
+|  			  			11  			 		   |  			  			I want to make it easy to inform our fans of upcoming 			shows and events. 		                                                              |  			 Confirmed 			through news section of home.html, live-shows.html page and the 			pop up modal directing the user to the facebook page. 		                      |  			  			Pass  			 		         |
+|  			  			12 		     |  			  			I want to make it a responsive, engaging experience 			on mobile and desktop devices. 		                                                   |  			  			Resposiveness 			functionality tested throughly on various  screens. 		                                                                                   |  			  			Pass  			 		         |
+
+### *Manual Testing*
 
 |  				 Test Case 			 |                                                           				 Description of feature 			                                                          |  				 Result 			 |
 |:------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|
@@ -190,10 +192,10 @@ In the project, no syntax errors were detected, as validated by -
 |  				 26 			        |  				 Icons when clicked on open links in a new tab to 				there respective Social media sites 			                                                     |  				 Pass 			   |
 |  				 27 			        |  				 Main heading text on each page animates when page 				is loaded 			                                                                              |  				 Pass 			   |
 
-## Responsiveness -
+## *Responsiveness* -
 The Website was viewed on devices such as Desktop, Laptop, Huawei Y6, iPhone 7/8, Samsung A1 in real life.
 
-#### Using inspect elements on firefox i checked responsiveness for the following 
+### *Using inspect elements on firefox i checked responsiveness for the following*
 #### Phones -
 Galaxy Note 3Android 4.3
 Galaxy Note 9Android 7.0
@@ -226,7 +228,7 @@ Laptop with HiDPI screen
 Laptop with MDPI screen
 Laptop with touch
 
-### Browsers 
+## *Browser Testing*
 The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari browsers. 
 #### Issues Found -
 - Had difficuly styling the Table (calendar) with CSS for smaller screens, so decided to leave it out for screens under desktop/laptop size.
@@ -235,7 +237,7 @@ The Website was tested on Firefox, Google Chrome, Microsoft Edge and Safari brow
 - The text on the primary nav in the mobile dropdown view did not show on some devices, but it became visible after hovering. 
 
 
-## Deployment
+## *Deployment*
 The site was developed in GitPod and pushed to the following remote GitHub repository - (https://github.com/BarryBlock88/Insecure-Dangereux_site)
 ##### The following GIT commands were used throughout deployment:
 
@@ -254,7 +256,7 @@ The site was developed in GitPod and pushed to the following remote GitHub repos
 - Scroll down to until you see GitHub Pages section. 
 - Select as a source master branch, keep folder as Root and save.
 - Your site will live in 3 to 10 minutes.
-## Credits
+# *Credits*
 ### Content
 - About us section is adapted from an article about Insecure & Dangereux from Brussels Times
 here (https://www.brusselstimes.com/belgium/74008/a-look-at-belgiums-insecure-dangereux-comedy-club/)
@@ -288,7 +290,7 @@ here (https://www.brusselstimes.com/belgium/74008/a-look-at-belgiums-insecure-da
 
 
 
-## Advice and support
+## *Advice and support*
 
 - All the lovely people who helped advise on Slack Community (various students and tutors) 
 - My Mentor Caleb Mbakwe
